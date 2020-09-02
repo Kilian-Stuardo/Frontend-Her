@@ -68,6 +68,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Breakdown-schets(en):**
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images\Hoofd structuur.png)
+![Hoofd structuur](https://user-images.githubusercontent.com/45419401/92012982-733f1480-ed4d-11ea-8858-9310d8cae1db.png)
 
-![-voorlopige breakdownschets(en) van een of beide pagina's van de site die je gaat maken-](images\Details.png)
+![Details](https://user-images.githubusercontent.com/45419401/92013097-9b2e7800-ed4d-11ea-8dda-04c244c3c2f3.png)
