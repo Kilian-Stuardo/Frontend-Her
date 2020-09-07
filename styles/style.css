@@ -1,5 +1,98 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+  box-sizing:border-box;
 }
 
+*{
+  font-family: sans-serif;
+}
+
+body{
+  height: 200vh;
+  font-family: 'Montserrat';
+}
+
+#navigation{
+    background-color: #FFFFFF;
+    position: fixed;
+    width: 95%;
+    top: -9em;
+    border-bottom: 1px;
+    border-color: #EEEEEE;
+    z-index: 999;
+
+}
+#Menu{
+  font-weight: bold;
+  color: #8b86d9;
+}
+
+
+/* Grid styles -------------------------------------------------*/
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 10px;
+}
+
+
+/* Generic styles ----------------------------------------------*/
+.leading {
+  height: 240px;
+  margin-bottom: 30px;
+  padding: 30px;
+  background: url('https://cdn.glitch.com/a5121e34-96b3-4a70-8227-040c51e64fae%2Fcat.jpg?1509635989509') center #333 no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.cards {
+  max-width: 960px;
+  margin: 0 auto 30px;
+}
+
+article {
+  position: relative;
+}
+
+
+
+.article-img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.article-title {
+    position: absolute;
+    bottom: 0;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #8b86d9;
+
+}
+
+h1{
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+article > p{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 70px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    background-color: #8b86d9;
+}
+
+.subTitleArticle {
+  position: absolute;
+  bottom: 0;
+  margin-bottom: 70px;
+  margin-left: 10px;
+  color: #FFFFFF;
+  background-color: #8b86d9;
+}
