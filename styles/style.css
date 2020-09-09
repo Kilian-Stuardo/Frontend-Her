@@ -1,31 +1,66 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;
-}
-
 *{
   font-family: sans-serif;
+  padding:0;
+  margin:0;
 }
 
 body{
+  background-color: white;
   height: 200vh;
   font-family: 'Montserrat';
 }
 
-#navigation{
-    background-color: #FFFFFF;
+header {
+    display: grid;
+    justify-items: center;
+    left:0;
+    right:0;
     position: fixed;
-    width: 95%;
-    top: -9em;
-    border-bottom: 1px;
-    border-color: #EEEEEE;
-    z-index: 999;
+    z-index: 1;
+}
+
+nav {
+    background-color: white;
+    color: #EA4E55;
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+}
+
+nav img {
+    padding-left:2em;
+    color: #EA4E55;
+    width:7em;
+    height:7em;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 2em 2em;
+}
+
+nav ul li {
+    margin-left: 1em;
 
 }
-#Menu{
-  font-weight: bold;
-  color: #8b86d9;
+
+/* animation */
+.show {
+    top: 0;
+    transition: top .4s ease-in;
 }
+
+.hide {
+    top: -8em;
+    transition: top .5s ease-in;
+}
+
+
 
 
 /* Grid styles -------------------------------------------------*/
@@ -63,13 +98,13 @@ article {
   object-fit: cover;
 }
 
-.article-title {
+ h1 {
     position: absolute;
     bottom: 0;
     margin-left: 10px;
     padding: 10px;
     background-color: #FFFFFF;
-    color: #8b86d9;
+    color: #EA4E55;
 
 }
 
@@ -77,6 +112,8 @@ h1{
     text-transform: uppercase;
     font-size: 1em;
     font-weight: bold;
+    margin-bottom: 1em;
+    margin-right: 1em;
 }
 
 article > p{
@@ -85,7 +122,7 @@ article > p{
     margin-bottom: 70px;
     margin-left: 10px;
     color: #FFFFFF;
-    background-color: #8b86d9;
+    background-color: #EA4E55;
 }
 
 .subTitleArticle {
@@ -94,5 +131,5 @@ article > p{
   margin-bottom: 70px;
   margin-left: 10px;
   color: #FFFFFF;
-  background-color: #8b86d9;
+  background-color: #EA4E55;
 }
