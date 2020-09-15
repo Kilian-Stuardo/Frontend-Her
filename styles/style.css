@@ -9,6 +9,7 @@ body{
   background-color: white;
   height: 200vh;
   font-family: 'Montserrat';
+  line-height: 1.62;
 }
 
 header {
@@ -34,7 +35,12 @@ nav img {
     padding-left:2em;
     color: #EA4E55;
     width:7em;
-    height:7em;
+    height:7em
+}
+
+nav > li:nth-child(3) {
+  fill: #EA4E55;
+
 }
 
 nav ul {
@@ -88,6 +94,7 @@ nav ul li {
 
 article {
   position: relative;
+  box-sizing: border-box;
 }
 
 
@@ -105,25 +112,38 @@ article {
     padding: 10px;
     background-color: #FFFFFF;
     color: #EA4E55;
+    font-family: arial;
 
 }
 
 h1{
     text-transform: uppercase;
+    margin: 0;
     font-size: 1em;
     font-weight: bold;
-    margin-bottom: 1em;
-    margin-right: 1em;
+    display: inline;
+    box-decoration-break: clone;
+
 }
 
-article > p{
+.cards > article > p{
     position: absolute;
     bottom: 0;
     margin-bottom: 70px;
     margin-left: 10px;
     color: #FFFFFF;
     background-color: #EA4E55;
+    padding: 5px 1rem;
+
 }
+
+p{
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 1rem;
+
+}
+
 
 .subTitleArticle {
   position: absolute;
@@ -132,4 +152,26 @@ article > p{
   margin-left: 10px;
   color: #FFFFFF;
   background-color: #EA4E55;
+  padding: .4em;
+}
+
+footer > section{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer > section > article:first-of-type {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 45em){
+footer > section{
+  flex-direction: column;
+}
+
+}
+
+
 }
