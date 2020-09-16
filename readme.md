@@ -40,6 +40,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
+ik ben al een stuk opgeschooten met de homepage. De navigatie voor mobile maaken ging nog niet zo goed en liep best vaak tgene wat probleemen op met de homepage waardoor ik ook nog niet aan de tweede pagina begonnen ben. ook had ik soms wat moeite met starten, ook was ik vaak vergeten hoe ik dingen moest doen waardoor het ook meer tijd gekost heeft.
+
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent-

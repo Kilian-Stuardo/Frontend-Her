@@ -82,7 +82,7 @@ nav ul li {
   height: 240px;
   margin-bottom: 30px;
   padding: 30px;
-  background: url('https://cdn.glitch.com/a5121e34-96b3-4a70-8227-040c51e64fae%2Fcat.jpg?1509635989509') center #333 no-repeat;
+  background: url('images/._Tropenmuseum in Amsterdam  Een museum over wereldculturen.mp4mar') center #333 no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -105,24 +105,29 @@ article {
   object-fit: cover;
 }
 
- h1 {
+h1 {
+   position: absolute;
+   bottom: 0;
+   margin-left: 10px;
+   padding: 10px;
+   background-color: #FFFFFF;
+   color: #EA4E55;
+   font-family: arial;
+   text-transform: uppercase;
+   font-size: 1em;
+
+}
+
+ h2 {
     position: absolute;
-    bottom: 0;
+    bottom: 18px;
     margin-left: 10px;
     padding: 10px;
     background-color: #FFFFFF;
     color: #EA4E55;
     font-family: arial;
-
-}
-
-h1{
     text-transform: uppercase;
-    margin: 0;
     font-size: 1em;
-    font-weight: bold;
-    display: inline;
-    box-decoration-break: clone;
 
 }
 
@@ -159,11 +164,39 @@ footer > section{
   display: flex;
   flex-direction: row;
   justify-content: center;
+  border-top: 2px solid  #EEEEEE;
+  border-bottom: 2px solid #EEEEEE;
 }
 
 footer > section > article:first-of-type {
   display: flex;
   flex-direction: column;
+
+}
+
+h3{
+  color: #333333;
+}
+
+footer > section > article{
+  margin-top: 2em;
+  margin-bottom: 1em;
+  margin-left: 2em;
+
+}
+footer > section > article > ul{
+  list-style: none;
+}
+footer > section > article > ul > li{
+  margin-top: 1em;
+  font-family: 'Montserrat';
+  font: 14px;
+  color: #666666;
+}
+
+.domain-logo{
+  height: 4em;
+  width: 8em;
 }
 
 @media screen and (max-width: 45em){
@@ -171,7 +204,11 @@ footer > section{
   flex-direction: column;
 }
 
+footer > section:first-of-type > article:first-of-type{
+  display: none;
+
 }
+
 
 
 }
