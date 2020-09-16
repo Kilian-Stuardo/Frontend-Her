@@ -43,11 +43,14 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ik ben al een stuk opgeschooten met de homepage. De navigatie voor mobile maaken ging nog niet zo goed en liep best vaak tgene wat probleemen op met de homepage waardoor ik ook nog niet aan de tweede pagina begonnen ben. ook had ik soms wat moeite met starten, ook was ik vaak vergeten hoe ik dingen moest doen waardoor het ook meer tijd gekost heeft. Wat ook erg vervalend was is dat de site al 3 keer geupdate is van content en stijl waardoor ik dingen dubble moest doen om het weer te veranderen.
 
 **Screenshot(s):**
-
+<details open>
+<summary>Screenshots voortgang 1</summary>
+<br>
 ![Screenshot_2020-09-16 Tropenmuseum](https://user-images.githubusercontent.com/45419401/93386478-0e64dd80-f868-11ea-92c3-7a10b8866ac4.jpg)
 
 ![Screenshot_2020-09-16 Tropenmuseum](https://user-images.githubusercontent.com/45419401/93386558-289ebb80-f868-11ea-92f3-c7efbd1d8e95.png)
 
+</details>
 
 ### Agenda voor meeting
 
@@ -69,12 +72,24 @@ ik ben al een stuk opgeschooten met de homepage. De navigatie voor mobile maaken
 
 **Screenshot(s):**
 
+<details open>
+<summary>Screenshots</summary>
+<br>
+
 ![Screenshot_2020-09-01 Een museum over wereldculturen](https://user-images.githubusercontent.com/45419401/93386196-a44c3880-f867-11ea-914d-99d6d9c7dd97.jpg)
 
 ![Screenshot_2020-09-01 Over het Tropenmuseum](https://user-images.githubusercontent.com/45419401/93386305-c5148e00-f867-11ea-946f-3a39492fbaf6.jpg)
 
+</details>
+
 **Breakdown-schets(en):**
+
+<details open>
+<summary>Breakdown</summary>
+<br>
 
 ![Hoofd structuur](https://user-images.githubusercontent.com/45419401/92012982-733f1480-ed4d-11ea-8858-9310d8cae1db.png)
 
 ![Details](https://user-images.githubusercontent.com/45419401/92013097-9b2e7800-ed4d-11ea-8dda-04c244c3c2f3.png)
+
+</details>
