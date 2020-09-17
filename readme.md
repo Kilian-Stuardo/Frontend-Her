@@ -46,6 +46,7 @@ ik ben al een stuk opgeschooten met de homepage. De navigatie voor mobile maaken
 <details open>
 <summary>Screenshots voortgang 1</summary>
 <br>
+
 ![Screenshot_2020-09-16 Tropenmuseum](https://user-images.githubusercontent.com/45419401/93386478-0e64dd80-f868-11ea-92c3-7a10b8866ac4.jpg)
 
 ![Screenshot_2020-09-16 Tropenmuseum](https://user-images.githubusercontent.com/45419401/93386558-289ebb80-f868-11ea-92f3-c7efbd1d8e95.png)
@@ -77,6 +78,7 @@ ik ben al een stuk opgeschooten met de homepage. De navigatie voor mobile maaken
 <br>
 
 ![Screenshot_2020-09-01 Een museum over wereldculturen](https://user-images.githubusercontent.com/45419401/93386196-a44c3880-f867-11ea-914d-99d6d9c7dd97.jpg)
+
 
 ![Screenshot_2020-09-01 Over het Tropenmuseum](https://user-images.githubusercontent.com/45419401/93386305-c5148e00-f867-11ea-946f-3a39492fbaf6.jpg)
 

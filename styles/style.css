@@ -38,8 +38,10 @@ nav img {
     height:7em
 }
 
-nav > li:nth-child(3) {
+nav > ul > li > img {
   fill: #EA4E55;
+  max-width: 2rem;
+  max-height: 3rem;
 
 }
 
@@ -54,6 +56,8 @@ nav ul li {
     margin-left: 1em;
 
 }
+
+
 
 /* animation */
 .show {
@@ -107,7 +111,7 @@ article {
 
 h1 {
    position: absolute;
-   bottom: 0;
+   bottom:18px;
    margin-left: 10px;
    padding: 10px;
    background-color: #FFFFFF;
@@ -117,6 +121,8 @@ h1 {
    font-size: 1em;
 
 }
+
+/* Main body / cards ----------------------------------------------*/
 
  h2 {
     position: absolute;
@@ -146,6 +152,7 @@ p{
   font-weight: 400;
   margin-top: 0;
   margin-bottom: 1rem;
+  color: #999999;
 
 }
 
@@ -159,6 +166,8 @@ p{
   background-color: #EA4E55;
   padding: .4em;
 }
+
+/* Footer ----------------------------------------------*/
 
 footer > section{
   display: flex;
@@ -174,6 +183,23 @@ footer > section > article:first-of-type {
 
 }
 
+footer > section > article:first-of-type > img {
+  margin-bottom: 0.6em;
+
+
+
+}
+
+footer > section > article:first-of-type > a {
+  color: #999999;
+  margin-top: 1em;
+  text-decoration: none;
+
+
+}
+
+
+
 h3{
   color: #333333;
 }
@@ -187,17 +213,41 @@ footer > section > article{
 footer > section > article > ul{
   list-style: none;
 }
+
 footer > section > article > ul > li{
   margin-top: 1em;
   font-family: 'Montserrat';
-  font: 14px;
-  color: #666666;
+  color: #999999;
+
 }
+
+/* Socials part ----------------------------------------------*/
+
+footer > section > article:nth-child(5) > ul{
+  display: flex;
+
+
+}
+
+footer > section > article > ul > li > a > img{
+max-width: 2rem;
+flex-direction: row;
+
+}
+
+/* afrika museum part ----------------------------------------------*/
 
 .domain-logo{
   height: 4em;
   width: 8em;
 }
+
+
+footer > Span{
+  float: right;
+  color: #999999;
+}
+
 
 @media screen and (max-width: 45em){
 footer > section{
