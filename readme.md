@@ -57,6 +57,10 @@ ik ben al een stuk opgeschooten met de homepage. De navigatie voor mobile maaken
 
 -samen met je groepje opstellen-
 
+* Hoe vermijd ik classes en meer uitleg bij het gebruik van pseudo klassen.
+* Wat is de juiste HTML voor de disclaimer?
+* Wat is de juiste HTML voor twee menu's (boven en onder de pagina) en het positioneren van de menu's gaat lastig. (vooral responsive)
+
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
