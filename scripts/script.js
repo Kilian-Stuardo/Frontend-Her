@@ -4,6 +4,23 @@ let header = document.querySelector('header');
 // sla de positie op 
 var savedPosition = 0;
 
+let fullScreen = document.querySelector(".fullscreen-menu");
+let hamburger = document.querySelector('#fullimage');
+let hamburgerCross = document.querySelector('.cross');
+
+console.log(hamburger);
+
+hamburger.addEventListener('click', function(event) {
+    fullScreen.style.display = 'block';
+
+}, true)
+
+hamburgerCross.addEventListener('click', function(event) {
+    console.log(hamburgerCross)
+    fullScreen.style.display = 'none';
+}, true)
+
+
 // je wilt op interval weten wat de huidige positie is
 window.setInterval(() => {
     // je variabelen opvullen met de huidige pageYOffset
