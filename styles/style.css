@@ -1,22 +1,23 @@
 /* CSS Document */
-*{
-  font-family: sans-serif;
-  padding:0;
-  margin:0;
+
+* {
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
 }
 
-body{
-  background-color: white;
-  height: 200vh;
-  font-family: 'Montserrat';
-  line-height: 1.62;
+body {
+    background-color: white;
+    height: 200vh;
+    font-family: 'Montserrat';
+    line-height: 1.62;
 }
 
 header {
     display: grid;
     justify-items: center;
-    left:0;
-    right:0;
+    left: 0;
+    right: 0;
     position: fixed;
     z-index: 1;
 }
@@ -32,24 +33,21 @@ nav {
 }
 
 nav img {
-    padding-left:2em;
+    padding-left: 2em;
     color: #EA4E55;
-    width:7em;
-    height:7em
+    width: 7em;
+    height: 7em
 }
 
-nav > ul > li > img {
-  fill: #EA4E55;
-  height: 2rem;
-  width: 2rem;
-  margin-left: 1em;
-
+nav>ul>li>img {
+    fill: #EA4E55;
+    height: 2rem;
+    width: 2rem;
+    margin-left: 1em;
 }
 
-nav > ul > li > img:nth-child(1) {
-  fill: #EA4E55;
-
-
+nav>ul>li>img:nth-child(1) {
+    fill: #EA4E55;
 }
 
 nav ul {
@@ -61,24 +59,22 @@ nav ul {
 
 nav ul li {
     margin-left: 1em;
-
 }
 
-#selectbox{
-  width: 3rem;
-  padding: 0.3em;
-  border: 1px solid #d5d5d5;
-  overflow: hidden;
-  position: absolute;
-  background: white;
-  appearance: none;
-  color: #ea4e55
+#selectbox {
+    width: 3rem;
+    padding: 0.3em;
+    border: 1px solid #d5d5d5;
+    overflow: hidden;
+    position: absolute;
+    background: white;
+    appearance: none;
+    color: #ea4e55
 }
-
-
 
 
 /* animation */
+
 .show {
     top: 0;
     transition: top .4s ease-in;
@@ -90,131 +86,154 @@ nav ul li {
 }
 
 
-
-
 /* Grid styles -------------------------------------------------*/
+
 .cards {
-  display: grid;
-/*  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));*/
-  /* grid-template-columns: 1fr 1fr 1fr;*/
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 1em;
-  grid-row-gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
 }
+
+.cards>a>div {
+    height: auto;
+}
+
+.cards>a>div>img {
+    height: 100%;
+    width: 100%;
+}
+
+
 /* Tickets -------------------------------------------------*/
-main > .cards > article:nth-child(1){
-  grid-column: 1/3;
-  grid-row: 1/3;
+
+main>.cards>a:nth-child(1) {
+    grid-column: 1/3;
+    grid-row: 1/3;
 }
+
+
 /* genderfull -------------------------------------------------*/
-main > .cards > article:nth-child(2){
-  grid-column: 3/4;
-  grid-row: 1;
+
+main>.cards>a:nth-child(2) {
+    grid-column: 3/4;
+    grid-row: 1;
 }
+
+
 /* sabi -------------------------------------------------*/
-main > .cards > article:nth-child(3){
-  grid-column: 3/4;
-  grid-row: 2;
+
+main>.cards>a:nth-child(3) {
+    grid-column: 3/4;
+    grid-row: 2;
 }
+
 
 /* rascism -------------------------------------------------*/
-main > .cards > article:nth-child(4){
-  grid-column: 2/4;
-  grid-row: 3/5;
+
+main>.cards>a:nth-child(4) {
+    grid-column: 2/4;
+    grid-row: 3/5;
 }
+
 
 /* slavernijverleden -------------------------------------------------*/
-main > .cards > article:nth-child(5){
-  grid-column: 1/2;
-  grid-row: 3;
+
+main>.cards>a:nth-child(5) {
+    grid-column: 1/2;
+    grid-row: 3;
 }
+
+
 /* online musem -------------------------------------------------*/
-main > .cards > article:nth-child(6){
-  grid-column: 1/2;
-  grid-row: 4;
+
+main>.cards>a:nth-child(6) {
+    grid-column: 1/2;
+    grid-row: 4;
 }
+
+
 /* Families -------------------------------------------------*/
-main > .cards > article:nth-child(7){
-  grid-column: 1/2;
-  grid-row: 5;
+
+main>.cards>a:nth-child(7) {
+    grid-column: 1/2;
+    grid-row: 5;
 }
+
 
 /* Groepen -------------------------------------------------*/
-main > .cards > article:nth-child(8){
-  grid-column: 2/3;
-  grid-row: 5;
+
+main>.cards>a:nth-child(8) {
+    grid-column: 2/3;
+    grid-row: 5;
 }
+
+
 /* Onderwijs -------------------------------------------------*/
-main > .cards > article:nth-child(9){
-  grid-column: 3/4;
-  grid-row: 5;
+
+main>.cards>a:nth-child(9) {
+    grid-column: 3/4;
+    grid-row: 5;
 }
+
+
 /* Collectie -------------------------------------------------*/
-main > .cards > article:nth-child(10){
-  grid-column: 1/2;
-  grid-row: 6;
+
+main>.cards>a:nth-child(10) {
+    grid-column: 1/2;
+    grid-row: 6;
 }
+
 
 /* Junior -------------------------------------------------*/
-main > .cards > article:nth-child(11){
-  grid-column: 2/3;
-  grid-row: 6;
+
+main>.cards>a:nth-child(11) {
+    grid-column: 2/3;
+    grid-row: 6;
 }
+
 
 /* Geschiedenis -------------------------------------------------*/
-main > .cards > article:nth-child(12){
-  grid-column: 3/4;
-  grid-row: 6;
-}
 
+main>.cards>a:nth-child(12) {
+    grid-column: 3/4;
+    grid-row: 6;
+}
 
 
 /* Generic styles ----------------------------------------------*/
+
 .leading {
-  height: 240px;
-  margin-bottom: 30px;
-  padding: 30px;
-  /*background: url('images/._Tropenmuseum in Amsterdam  Een museum over wereldculturen.mp4mar') center #333 no-repeat; */
-  background-size: cover;
-  position: relative;
+    height: 300px;
+    margin-bottom: 30px;
+    padding: 30px;
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+    z-index: -1;
 }
 
 .cards {
-  max-width: 960px;
-  margin: 0 auto 30px;
+    padding: 2em;
+    background-color: white;
+    margin: 0 auto 30px;
+    padding-top: 2em;
+    z-index: 1;
 }
 
-article {
-  position: relative;
-  box-sizing: border-box;
+.cards>a {
+    position: relative;
+    box-sizing: border-box;
 }
-
-
 
 .article-img {
-  height: 200px;
-  width: 100%;
-  object-fit: cover;
-
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
 h1 {
-   position: absolute;
-   bottom:18px;
-   margin-left: 10px;
-   padding: 10px;
-   background-color: #FFFFFF;
-   color: #EA4E55;
-   font-family: arial;
-   text-transform: uppercase;
-   font-size: 1em;
-
-}
-
-/* Main body / cards ----------------------------------------------*/
-
- h2 {
     position: absolute;
     bottom: 18px;
     margin-left: 10px;
@@ -224,10 +243,24 @@ h1 {
     font-family: arial;
     text-transform: uppercase;
     font-size: 1em;
-
 }
 
-.cards > article > p{
+
+/* Main body / cards ----------------------------------------------*/
+
+h2 {
+    position: absolute;
+    bottom: 18px;
+    margin-left: 10px;
+    padding: 10px;
+    background-color: #FFFFFF;
+    color: #EA4E55;
+    font-family: arial;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+.cards>a>p {
     position: absolute;
     bottom: 0;
     margin-bottom: 70px;
@@ -235,145 +268,138 @@ h1 {
     color: #FFFFFF;
     background-color: #EA4E55;
     padding: 5px 1rem;
-
 }
 
-p{
-  font-weight: 400;
-  margin-top: 0;
-  margin-bottom: 1rem;
-  color: #999999;
-
+p {
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #999999;
 }
-
 
 .subTitleArticle {
-  position: absolute;
-  bottom: 0;
-  margin-bottom: 70px;
-  margin-left: 10px;
-  color: #FFFFFF;
-  background-color: #EA4E55;
-  padding: .4em;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 70px;
+    margin-left: 10px;
+    color: #FFFFFF;
+    background-color: #EA4E55;
+    padding: .4em;
 }
+
 
 /* Footer ----------------------------------------------*/
 
-footer > section{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  border-top: 1px solid  #ddd;
-
+footer>section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-top: 1px solid #ddd;
 }
 
-footer > section > article:first-of-type {
-  display: flex;
-  flex-direction: column;
-
+footer>section>article:first-of-type {
+    display: flex;
+    flex-direction: column;
 }
 
-footer > section > article:first-of-type > img {
-  margin-bottom: 0.6em;
-
-
-
+footer>section>article:first-of-type>img {
+    margin-bottom: 0.6em;
 }
 
-footer > section > article:first-of-type > a {
-  color: #999999;
-  margin-top: 1em;
-  text-decoration: none;
-
-
+footer>section>article:first-of-type>a {
+    color: #999999;
+    margin-top: 1em;
+    text-decoration: none;
 }
 
-
-
-h3{
-  color: #333333;
+h3 {
+    color: #333333;
 }
+
 
 /* nieuwsbrief----------------------------------------------*/
 
-input[type=text]{
-  padding: 8px 2rem;
-  border: solid 1px #ddd;
-  background: white;
-  font-size: 1rem;
-  max-height: 4rem;
+input[type=text] {
+    padding: 8px 2rem;
+    border: solid 1px #ddd;
+    background: white;
+    font-size: 1rem;
+    max-height: 4rem;
 }
 
-input[type=submit]{
-  line-height: 2.3rem;
-  background: #ea4e55;
-  color: white;
-  border: none;
-
+input[type=submit] {
+    line-height: 2.3rem;
+    background: #ea4e55;
+    color: white;
+    border: none;
 }
 
-footer > section > article{
-  margin-top: 2em;
-  margin-bottom: 1em;
-  margin-left: 2em;
-
-}
-footer > section > article > ul{
-  list-style: none;
+footer>section>article {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: 2em;
 }
 
-footer > section > article > ul > li{
-  margin-top: 1em;
-  font-family: 'Montserrat';
-  color: #999999;
-
+footer>section>article>ul {
+    list-style: none;
 }
+
+footer>section>article>ul>li {
+    margin-top: 1em;
+    font-family: 'Montserrat';
+    color: #999999;
+}
+
 
 /* Socials part ----------------------------------------------*/
 
-footer > section > article:nth-child(5) > ul{
-  display: flex;
-
-
+.socials {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-footer > section > article > ul > li > a > img{
-max-width: 2rem;
-flex-direction: row;
-
+.socials>li {
+    margin-right: 1em;
 }
+
+.socials>li>a>img {
+    width: 2.4em;
+}
+
+.socials>li:last-of-type>a>img {
+    width: 4.3em;
+}
+
 
 /* afrika museum part ----------------------------------------------*/
 
-.domain-logo{
-  height: 4em;
-  width: 8em;
+.domain-logo {
+    height: 4em;
+    width: 8em;
 }
 
-
-footer > Span{
-  float: right;
-  color: #999999;
+footer>Span {
+    float: right;
+    color: #999999;
 }
 
-
-@media screen and (max-width: 45em){
-
-  .cards {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 10px;
-  }
-
-footer > section{
-  flex-direction: column;
-}
-
-footer > section:first-of-type > article:first-of-type{
-  display: none;
-
-}
-
-
-
+@media screen and (max-width: 45em) {
+    #navigation {
+        width: 100%;
+    }
+    #navigation>ul>li:nth-child(1),
+    #navigation>ul>li:nth-child(2),
+    #navigation>ul>li:nth-child(3) {
+        display: none;
+    }
+    .cards,
+    footer>section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    footer>section:first-of-type>article:first-of-type {
+        display: none;
+    }
 }

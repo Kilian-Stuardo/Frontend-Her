@@ -18,7 +18,7 @@ window.addEventListener('scroll', (event) => {
     /* console.log de berekening wat het verschil is OMHOOG
     van de scroll positie om dan het menu weer te tonen. Je voegt 
     hier de classList toe. */
-    // console.log('asda',savedPosition - window.scrollY > 200);
+    // console.log('asda', savedPosition - window.scrollY > 200);
     // if statement opgeslagen positie - scroll = verschil en is het verschil groter dan 200? toon
     if (savedPosition - window.scrollY > 200) {
         // hide
