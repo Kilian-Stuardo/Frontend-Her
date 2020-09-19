@@ -40,8 +40,15 @@ nav img {
 
 nav > ul > li > img {
   fill: #EA4E55;
-  max-width: 2rem;
-  max-height: 3rem;
+  height: 2rem;
+  width: 2rem;
+  margin-left: 1em;
+
+}
+
+nav > ul > li > img:nth-child(1) {
+  fill: #EA4E55;
+
 
 }
 
@@ -55,6 +62,17 @@ nav ul {
 nav ul li {
     margin-left: 1em;
 
+}
+
+#selectbox{
+  width: 3rem;
+  padding: 0.3em;
+  border: 1px solid #d5d5d5;
+  overflow: hidden;
+  position: absolute;
+  background: white;
+  appearance: none;
+  color: #ea4e55
 }
 
 
@@ -157,7 +175,7 @@ main > .cards > article:nth-child(12){
   height: 240px;
   margin-bottom: 30px;
   padding: 30px;
-  background: url('images/._Tropenmuseum in Amsterdam  Een museum over wereldculturen.mp4mar') center #333 no-repeat;
+  /*background: url('images/._Tropenmuseum in Amsterdam  Een museum over wereldculturen.mp4mar') center #333 no-repeat; */
   background-size: cover;
   position: relative;
 }
@@ -178,7 +196,7 @@ article {
   height: 200px;
   width: 100%;
   object-fit: cover;
-  
+
 }
 
 h1 {
@@ -245,8 +263,8 @@ footer > section{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  border-top: 2px solid  #EEEEEE;
-  border-bottom: 2px solid #EEEEEE;
+  border-top: 1px solid  #ddd;
+
 }
 
 footer > section > article:first-of-type {
@@ -274,6 +292,24 @@ footer > section > article:first-of-type > a {
 
 h3{
   color: #333333;
+}
+
+/* nieuwsbrief----------------------------------------------*/
+
+input[type=text]{
+  padding: 8px 2rem;
+  border: solid 1px #ddd;
+  background: white;
+  font-size: 1rem;
+  max-height: 4rem;
+}
+
+input[type=submit]{
+  line-height: 2.3rem;
+  background: #ea4e55;
+  color: white;
+  border: none;
+
 }
 
 footer > section > article{
@@ -322,6 +358,13 @@ footer > Span{
 
 
 @media screen and (max-width: 45em){
+
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 10px;
+  }
+
 footer > section{
   flex-direction: column;
 }
