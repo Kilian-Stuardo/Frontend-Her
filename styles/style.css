@@ -409,7 +409,7 @@ footer>Span {
     height: 100%;
     background-color: #F7F7F7;
     position: fixed;
-    /* display: none; */
+    display: none;
     z-index: 3;
 }
 
