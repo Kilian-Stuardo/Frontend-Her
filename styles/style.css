@@ -482,11 +482,17 @@ footer>Span {
 
 /* Over tropenmuseum page 2 ----------------------------------------------*/
 .page2 > ol{
-  text-align: left;
+  position: absolute;
+  top: 8rem;
+  left: 12rem;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
 }
 
 .page2 > ol > li{
   color:white;
+  font-weight: 400;
 }
 
 .page2 > ol > li>a{
@@ -585,8 +591,10 @@ footer>Span {
 .page2 >main> aside{
   position: sticky;
   flex-direction: row;
-  max-width: 30%;
+  max-width: 22rem;
   margin-left: 7em;
+  top: 0;
+  height: 10em;
 }
 
 .page2 > main > aside > p > a{
@@ -597,7 +605,7 @@ footer>Span {
 }
 
 .page2 > main > section:nth-child(1){
-max-width: 47rem;
+max-width: 51rem;
 
 }
 
