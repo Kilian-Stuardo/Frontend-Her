@@ -41,9 +41,13 @@ Ik ben al een stuk opgeschooten met de tweede pagina aleen nog wat kliene stylin
 <summary>Screenshots voortgang 1</summary>
 <br>
 
-![Screenshot_2020-09-16 Tropenmuseum]()
+![Screenshot_2020-09-16 Tropenmuseum](https://user-images.githubusercontent.com/45419401/94858470-60def600-0433-11eb-8cd4-b9f16efcbf51.jpg)
 
-![Screenshot_2020-09-16 Tropenmuseum]()
+![Screenshot_2020-09-16 Tropenmuseum](https://user-images.githubusercontent.com/45419401/94858362-3ab95600-0433-11eb-8d53-6f5c476de2c7.jpg)
+
+![Screenshot_2020-09-16 Tropenmuseum](https://user-images.githubusercontent.com/45419401/94858590-8f5cd100-0433-11eb-8a85-8100498014bf.jpg)
+
+![Screenshot_2020-09-16 Tropenmuseum](https://user-images.githubusercontent.com/45419401/94858659-ab607280-0433-11eb-8564-b84b348ebc1b.jpg)
 
 </details>
 
