@@ -186,8 +186,8 @@ button{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 1em;
-    grid-row-gap: 1em;
+    grid-column-gap: 1.4em;
+    grid-row-gap: 1.4em;
     max-width: 180rem;
 }
 
@@ -300,13 +300,15 @@ main>.cards>a:nth-child(12) {
 /* Generic styles ----------------------------------------------*/
 
 .leading {
-    height: 300px;
-    margin-bottom: 30px;
-    padding: 30px;
+    height: 477px;
+    padding: 23px;
     background-size: cover;
     position: relative;
-    box-sizing: border-box;
     z-index: -1;
+    overflow: hidden;
+    max-width: 115rem;
+    display: block;
+    margin: 0 auto;
 }
 
 .cards {
@@ -315,6 +317,7 @@ main>.cards>a:nth-child(12) {
     margin: 0 auto 30px;
     padding-top: 2em;
     z-index: 1;
+    max-width: 115rem;
 }
 
 .cards>a {
@@ -521,7 +524,7 @@ footer>Span {
   padding: 0 1.5rem;
   margin-bottom: 3em;
   margin-top: 1em;
-  margin-left: 3.3em;
+  margin-left: 17rem;
   line-height: 6.2rem;
   font-size: 2.5rem;
   text-transform: uppercase;
@@ -546,9 +549,6 @@ footer>Span {
   background: #ea4e55;
   padding: 3rem 3rem 2rem;
   color: white;
-  margin-top: -7rem;
-  margin-right: -2em;
-  margin-left: -7em;
 }
 
 .page2 > main > section> section>h2{
@@ -595,6 +595,7 @@ footer>Span {
   margin-left: 7em;
   top: 0;
   height: 10em;
+  margin-bottom: 4em;
 }
 
 .page2 > main > aside > p > a{
@@ -605,13 +606,15 @@ footer>Span {
 }
 
 .page2 > main > section:nth-child(1){
-max-width: 51rem;
+max-width: 53rem;
+margin-top: -7rem;
 
 }
 
 .page2>main>section>section:nth-child(2){
-  margin-left: -4em;
-  margin-top: 1em;
+  margin-top: 0em;
+  max-width: 45rem;
+  padding: 3rem;
 }
 
 .page2>main>section>section:nth-child(2)> p{
@@ -657,11 +660,17 @@ max-width: 51rem;
 @media screen and (max-width: 45em) {
     #navigation {
         width: 100%;
+        height: 42%;
     }
     #navigation>ul>li:nth-child(1),
     #navigation>ul>li:nth-child(2),
     #navigation>ul>li:nth-child(3) {
         display: none;
+    }
+
+    nav img{
+      width: 5em;
+      height: 1.6em;
     }
     .cards,
     footer>section {
@@ -671,5 +680,49 @@ max-width: 51rem;
     }
     footer>section:first-of-type>article:first-of-type {
         display: none;
+    }
+    .page2 > main{
+      display: flex;
+      flex-direction: column;
+    }
+
+    .page2 > .leading {
+    height: 304px;
+    padding: 0px;
+    }
+
+    .page2 > ol{
+      display: none;
+    }
+    .page2 > main > section > section:nth-child(1){
+      border: 10px solid #ffffff;
+      padding: 1rem 1rem 2rem;
+    }
+    .page2 > main > section > section > h2 {
+      font-size: 1.2rem;
+    }
+
+    .page2 > main > section > section:nth-child(2){
+      padding: 1.3rem;
+    }
+
+    .page2 > main > section{
+      flex-direction: column;
+    }
+    .page2 >main> aside{
+      display: none;
+    }
+    .page2 >.leading > h1{
+      background: white;
+      font-family: GT Pressura,arial;
+      color: #ea4e55;
+      padding: 0 0.4rem;
+      margin-bottom: 9em;
+      margin-top: 0em;
+      margin-left: 1rem;
+      line-height: 2.2rem;
+      font-size: 1rem;
+      text-transform: uppercase;
+      font-weight: 700;
     }
 }

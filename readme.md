@@ -31,6 +31,32 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Voortgang 2 (week 5)
 
 -same as voortgang 1-
+### Stand van zaken
+-dit ging goed & dit was lastig-
+
+Ik ben al een stuk opgeschooten met de tweede pagina aleen nog wat kliene styling elementen en dan nog wat details van styling op beide paginas heb aleen niet zo heel veel tijd gehad ivm andere vakken maar ben er wel bijna voor mijn gevoel
+
+**Screenshot(s):**
+<details open>
+<summary>Screenshots voortgang 1</summary>
+<br>
+
+![Screenshot_2020-09-16 Tropenmuseum]()
+
+![Screenshot_2020-09-16 Tropenmuseum]()
+
+</details>
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+
+
+### Verslag van meeting
+
+-na afloop snel uitkomsten vastleggen-
+
 
 
 
@@ -64,6 +90,7 @@ ik ben al een stuk opgeschooten met de homepage. De navigatie voor mobile maaken
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
+ging goed ben aardig opweg.
 
 
 
