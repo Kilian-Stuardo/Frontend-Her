@@ -98,11 +98,15 @@ nav ul li {
     left: 0;
 }
 
+.mobile-zoeken {
+    display: none;
+}
+
 .fullscreen-menu>section>article {
     margin-right: 2em;
 }
 
-.fullscreen-menu>section>article>ul {
+.fullscreen-menu>.centering>article>ul {
     list-style: none;
 }
 
@@ -114,7 +118,7 @@ nav ul li {
     z-index: 5;
 }
 
-.fullscreen-menu>section>article:nth-child(1)>ul>li {
+.fullscreen-menu>.centering>article:nth-child(1)>ul>li {
     color: #ea4e55;
     margin-bottom: 0.6em;
     font-family: 'Montserrat';
@@ -164,7 +168,7 @@ button {
     margin-bottom: 1em;
     margin-left: 2em;
     display: flex;
-    justify-content: flex-end;
+    justify-content: flex-start;
 }
 
 
@@ -187,8 +191,8 @@ button {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, 1fr);
-    grid-column-gap: 1.4em;
-    grid-row-gap: 1.4em;
+    grid-column-gap: 0.6em;
+    grid-row-gap: 0.6em;
     max-width: 180rem;
 }
 
@@ -262,7 +266,7 @@ main>.cards>a:nth-child(5) {
 @media screen and (max-width: 70rem) {
     main>.cards>a:nth-child(2)>p,
     main>.cards>a:nth-child(5)>p {
-        margin-bottom: 90px;
+        margin-bottom: 70px;
     }
 }
 
@@ -326,7 +330,7 @@ main>.cards>a:nth-child(12) {
 /* Generic styles ----------------------------------------------*/
 
 .leading {
-    height: 477px;
+    height: 380px;
     padding: 23px;
     background-size: cover;
     position: relative;
@@ -335,7 +339,7 @@ main>.cards>a:nth-child(12) {
     max-width: 115rem;
     display: block;
     margin: 0 auto;
-    padding: 3rem;
+    padding: 0rem;
 }
 
 .leading>video {
@@ -354,7 +358,7 @@ main>.cards>a:nth-child(12) {
 .cards {
     background-color: white;
     margin: 0 auto 30px;
-    padding-top: 2em;
+    padding-top: 0.6em;
     z-index: 1;
     max-width: 115rem;
 }
@@ -380,6 +384,7 @@ h1 {
     font-family: arial;
     text-transform: uppercase;
     font-size: 1em;
+    font-weight: 700;
 }
 
 
@@ -396,6 +401,7 @@ h2 {
     text-transform: uppercase;
     font-size: 1em;
     max-width: 20em;
+    font-weight: 700;
 }
 
 .cards>a>p {
@@ -406,6 +412,7 @@ h2 {
     color: #FFFFFF;
     background-color: #EA4E55;
     padding: 5px 1rem;
+    font-weight: 400;
 }
 
 p {
@@ -525,6 +532,9 @@ footer>Span {
 
 /* Over tropenmuseum page 2 ----------------------------------------------*/
 
+
+/* Breadcrumb-----------------------------------------*/
+
 .page2>ol {
     position: absolute;
     top: 8rem;
@@ -554,17 +564,12 @@ footer>Span {
     color: white !important;
 }
 
+
+/* leading---------------------------------------------*/
+
 .page2>.leading {
     height: 501px;
     padding: 25px;
-}
-
-.page2>main {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 2em;
 }
 
 .page2>.leading>h1 {
@@ -581,6 +586,17 @@ footer>Span {
     font-weight: 700;
 }
 
+
+/* main----------------------------------------------*/
+
+.page2>main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 2em;
+}
+
 .page2>main>section {
     flex-direction: row;
     display: block;
@@ -595,6 +611,9 @@ footer>Span {
     margin: 0;
     line-height: 6.2rem;
 }*/
+
+
+/* Text box 1 red bg----------------------------------*/
 
 .page2>main>section>section:nth-child(1) {
     background: #ea4e55;
@@ -619,6 +638,9 @@ footer>Span {
     margin-bottom: 1rem;
 }
 
+
+/* Second text box------------------------------------*/
+
 .page2>main>section>section>section>p {
     color: #666;
     font-weight: 400;
@@ -640,6 +662,9 @@ footer>Span {
     text-decoration: none;
     background-color: transparent;
 }
+
+
+/* Sticky Aside-------------------------------------*/
 
 .page2>main>aside {
     position: sticky;
@@ -673,27 +698,34 @@ footer>Span {
     color: #666;
 }
 
+
+/* Cards---------------------------------------*/
+
+.page2>.cards>a {
+    text-decoration: none;
+}
+
+.page2>.cards>a>section {
+    margin-top: .8rem;
+}
+
 .page2>.cards>a>section>p {
-    position: absolute;
     color: #666;
     padding: 0em;
-    margin-left: 0.5em;
-    background-color: transparent;
+    margin-left: 0em;
     margin-bottom: 0px;
     font-size: 1rem;
     font-weight: 100;
     line-height: 1.62;
-    bottom: -7em;
 }
 
 .page2>.cards>a>section>h2 {
-    position: relative;
-    /*  bottom: -62px;*/
-    margin-left: -6px;
-    /*   padding: 10px;*/
+    all: initial;
+    font-family: Montserrat;
     color: #EA4E55;
-    background-color: transparent;
+    font-weight: 700;
     font-size: 1.25rem;
+    line-height: 1.2;
 }
 
 .page2>.cards {
@@ -741,6 +773,7 @@ footer>Span {
     footer>section:first-of-type>article:first-of-type {
         display: none;
     }
+    /* Page 2 styling ---------------------------------*/
     .page2>main {
         display: flex;
         flex-direction: column;
@@ -798,31 +831,6 @@ footer>Span {
         line-height: 1.62;
         color: #666;
         text-align: left;
-        margin-top: 2rem;
+        margin-top: 0.3rem;
     }
-    /*
-    .page2 > .cards > a >section > p{
-      position: absolute;
-      color: #666;
-      padding: 0em;
-      margin-left: 0.5em;
-      background-color: transparent;
-      margin-bottom: 0px;
-      font-size: 1.2rem;
-      font-weight: 400;
-      line-height: 1.62;
-      bottom: -7em;
-
-    }
-    .page2 > .cards > a > section > h2{
-      position: absolute;
-      bottom: -62px;
-      margin-left: -6px;
-      padding: 10px;
-      color: #EA4E55;
-      background-color: transparent;
-      font-size: 1.25rem;
-
-    }
-    */
 }
