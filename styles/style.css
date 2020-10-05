@@ -1,7 +1,7 @@
 /* CSS Document */
 
 * {
-    font-family: sans-serif;
+    font-family: Montserrat;
     padding: 0;
     margin: 0;
 }
@@ -106,7 +106,7 @@ nav ul li {
     margin-right: 2em;
 }
 
-.centering>ul {
+.centering>article>ul {
     list-style: none;
 }
 
@@ -128,7 +128,9 @@ nav ul li {
 }
 
 .centering>.mobile-zoeken>h3 {
-    margin-bottom: 2em;
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 700;
 }
 
 .fullscreen-menu>.centering>article:nth-child(2)>ul>li {
@@ -170,7 +172,7 @@ button {
 
 .fullscreen-menu>section {
     border-bottom: 1px solid #ddd;
-    padding-bottom: 4em;
+    padding-bottom: 1em;
 }
 
 
@@ -478,8 +480,9 @@ h3 {
 /* nieuwsbrief----------------------------------------------*/
 
 input[type=text] {
-    padding: 9px 156px 9px 1rem;
+    padding: 9px 123px 9px 1rem;
     border: solid 1px #ddd;
+    color: #333;
     background: white;
     font-size: 1rem;
     max-height: 4rem;
@@ -776,7 +779,7 @@ footer>Span {
         margin-left: 2em;
     }
     .fullscreen-menu>section>article {
-        margin-bottom: 3em;
+        margin-bottom: 2em;
     }
     .cards,
     footer>section {
