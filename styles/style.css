@@ -259,6 +259,13 @@ main>.cards>a:nth-child(5) {
     }
 }
 
+@media screen and (max-width: 70rem) {
+    main>.cards>a:nth-child(2)>p,
+    main>.cards>a:nth-child(5)>p {
+        margin-bottom: 90px;
+    }
+}
+
 
 /* online musem -------------------------------------------------*/
 
