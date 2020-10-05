@@ -201,6 +201,10 @@ button {
     width: 100%;
 }
 
+body>main {
+    padding: 1rem;
+}
+
 
 /* Tickets -------------------------------------------------*/
 
@@ -341,7 +345,6 @@ main>.cards>a:nth-child(12) {
 }
 
 .cards {
-    padding: 2em;
     background-color: white;
     margin: 0 auto 30px;
     padding-top: 2em;
@@ -686,7 +689,7 @@ footer>Span {
 @media screen and (max-width: 45em) {
     #navigation {
         width: 100%;
-        height: 42%;
+        height: 60%;
     }
     #navigation>ul>li:nth-child(1),
     #navigation>ul>li:nth-child(2),
