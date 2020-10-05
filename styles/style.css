@@ -538,6 +538,7 @@ footer>Span {
     color: white;
     text-shadow: 0 0 5px rgba(0, 0, 0, .8);
     font-weight: 700;
+    margin-right: .5rem;
 }
 
 .page2>ol>li>a {
@@ -701,6 +702,12 @@ footer>Span {
     grid-column-gap: 4em;
     grid-row-gap: 2em;
     padding-bottom: 12em;
+}
+
+.page>.cards>a>.article-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
 }
 
 @media screen and (max-width: 45em) {
