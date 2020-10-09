@@ -851,3 +851,13 @@ footer>Span {
         margin-top: 0.3rem;
     }
 }
+
+
+/*
+@media screen and (max-width: 75em) {
+    .page2>.cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+*/

@@ -6,9 +6,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. https://css-tricks.com/almanac/
+2. https://css-tricks.com/snippets/css/complete-guide-grid/
+3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+4. https://sinds1971.nl/cssvoordedames/
+5. https://www.youtube.com/watch?v=jV8B24rSN5o&list=PL5sGpzcS3Ja0asxCEeoLfbZiHM6l6v-L7&index=11
+6. https://www.youtube.com/watch?v=jx5jmI0UlXU&list=PL5sGpzcS3Ja0asxCEeoLfbZiHM6l6v-L7&index=10&t=102s
+7. https://codepen.io/shooft/pens/public?cursor=ZD0wJm89MSZwPTEmdj00NzM1NDU4OQ==
+8. https://github.com/TuriGuilano/css_position
+9. https://www.internetingishard.com/html-and-css/flexbox/#flex-container-order
+10. https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
+11. 
+
+
 
 
 
@@ -24,13 +34,40 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+-dit ging goed & dit was lastig-
+ heb er niet zo veel tijd voor gehad door project web maar ben nog steeds bezig met de buggen en wat styling fixes en document opschoonen.
+ de arrow knop bij aanmelden lukte me niet en heb het opgegeeven.
+ ik ben nu nog erg aan het klooien met mijn menu stylken dat werkt nog niet helemaal goed en elke keer als ik een ding fix maak ik iets anders stuk lijkt wel
+
+**Screenshot(s):**
+<details open>
+<summary>Screenshots voortgang 3</summary>
+<br>
+
+![Screenshot_2020-09-16 Tropenmuseum](https://user-images.githubusercontent.com/45419401/95565145-0b50ad80-0a20-11eb-8a2c-493df46a6b7b.jpg)
+
+![Screenshot_2020-09-16 Tropenmuseum](https://user-images.githubusercontent.com/45419401/95565240-2f13f380-0a20-11eb-9e6e-46729c766712.jpg)
+
+![Screenshot_2020-09-16 Tropenmuseum](https://user-images.githubusercontent.com/45419401/95565313-49e66800-0a20-11eb-83d7-5f4e9bdf3532.jpg)
+
+![Screenshot_2020-09-16 Tropenmuseum](https://user-images.githubusercontent.com/45419401/95565363-5ff42880-0a20-11eb-995e-4d5dce1ba1bd.jpg)
+
+</details>
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+
+
+### Verslag van meeting
+
 
 
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
 ### Stand van zaken
 -dit ging goed & dit was lastig-
 
@@ -38,7 +75,7 @@ Ik ben al een stuk opgeschooten met de tweede pagina aleen nog wat kliene stylin
 
 **Screenshot(s):**
 <details open>
-<summary>Screenshots voortgang 1</summary>
+<summary>Screenshots voortgang 2</summary>
 <br>
 
 ![Screenshot_2020-09-16 Tropenmuseum](https://user-images.githubusercontent.com/45419401/94858470-60def600-0433-11eb-8cd4-b9f16efcbf51.jpg)
@@ -60,7 +97,9 @@ Ik ben al een stuk opgeschooten met de tweede pagina aleen nog wat kliene stylin
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
-
+goed op weg complimenmten van de leeraar
+ben nu nog bezig met de buggen en wat style fixes 
+wel nog wat stugles met dingen maar im doing it to the best of my abilitys
 
 
 
