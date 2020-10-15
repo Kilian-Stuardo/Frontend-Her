@@ -505,9 +505,10 @@ footer>section {
     border-top: 1px solid #ddd;
 }
 
-footer>section>article:first-of-type {
+footer>section:first-of-type>article:first-of-type {
     display: flex;
     flex-direction: column;
+    align-items: start;
 }
 
 footer>section>article:first-of-type>img {
@@ -516,7 +517,6 @@ footer>section>article:first-of-type>img {
 
 footer>section>article:first-of-type>a {
     color: #999999;
-    margin-top: 1em;
     text-decoration: none;
 }
 
@@ -574,6 +574,7 @@ footer>section>article {
     margin-top: 2em;
     margin-bottom: 1em;
     margin-left: 2em;
+    width: 20rem;
 }
 
 footer>section>article>ul {
@@ -883,6 +884,9 @@ footer>Span {
     .fullscreen-menu>nav {
         background-color: #F7F7F7;
         margin: 0 0em;
+    }
+    footer>section:first-of-type>article:first-of-type {
+        display: none;
     }
 }
 
