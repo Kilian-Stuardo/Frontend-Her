@@ -122,6 +122,7 @@ nav ul li {
 }
 
 .cross {
+    color: #EA4E55;
     width: 7em;
     height: 3em;
     cursor: pointer;
@@ -129,8 +130,9 @@ nav ul li {
     display: flex;
 }
 
-.cross>p {
-    color: #EA4E55;
+.nav-items {
+    display: flex;
+    padding-top: 1em;
 }
 
 .centering {
@@ -149,6 +151,7 @@ nav ul li {
     display: block;
     height: 2rem;
     width: 2rem;
+    margin-right: 2em;
 }
 
 .centering>.mobile-zoeken {
