@@ -133,6 +133,7 @@ nav ul li {
 .nav-items {
     display: flex;
     padding-top: 1em;
+    margin-right: -4em;
 }
 
 .centering {
@@ -201,6 +202,7 @@ label {
 
 #form {
     display: flex;
+    border: none;
 }
 
 button {
