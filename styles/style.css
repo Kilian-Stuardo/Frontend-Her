@@ -126,6 +126,7 @@ nav ul li {
     height: 3em;
     cursor: pointer;
     z-index: 5;
+    display: flex;
 }
 
 .cross>p {
@@ -225,7 +226,7 @@ button {
     margin-bottom: 1em;
     margin-left: 2em;
     display: flex;
-    justify-content: end;
+    justify-content: center;
 }
 
 
@@ -873,6 +874,10 @@ footer>Span {
         color: #FFFFFF;
         background-color: #EA4E55;
         padding: .4em;
+    }
+    .fullscreen-menu>nav {
+        background-color: #F7F7F7;
+        margin: 0 0em;
     }
 }
 
