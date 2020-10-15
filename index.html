@@ -6,8 +6,12 @@
     <meta name="author" content="jouw naam">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="images\apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images\favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images\favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 
-    <title>Tropenmuseum</title>
+    <title>Tropenmuseum in Amsterdam</title>
 
 
     <link href="styles/style.css" rel="stylesheet">
@@ -29,20 +33,28 @@
             <article class="mobile-zoeken">
                 <h3>Wil je iets zoeken?</h3>
                 <label>Zoeken</label>
-                <input type="text" placeholder="Typ hier je zoekopdracht">
+                <form action="action.php" method="post">
+                    <input type="text" placeholder="Typ hier je zoekopdracht">
+                </form>
             </article>
 
             <article>
 
                 <ul>
 
-                    <li>Zien en doen</li>
+                    <li><a href="">Zien en doen</a></li>
 
-                    <li>Plan je bezoek</li>
+                    <li>
+                        <a href="">Plan je bezoek</a>
+                    </li>
 
-                    <li>Onderwijs</li>
+                    <li>
+                        <a href="">Onderwijs</a>
+                    </li>
 
-                    <li>Over Tropenmuseum</li>
+                    <li>
+                        <a href="">Over Tropenmuseum</a>
+                    </li>
                 </ul>
                 <button>Tickets</button>
             </article>
@@ -51,18 +63,19 @@
 
                 <ul>
 
-                    <li>Collectie</li>
+                    <li><a href="">Collectie</a></li>
 
-                    <li>Tentoonstelling</li>
+                    <li><a href="">Tentoonstelling</a></li>
 
-                    <li>Activiteiten</li>
+                    <li><a href="">Activiteiten</a></li>
 
-                    <li>Pers</li>
+                    <li><a href="">Pers</a></li>
                 </ul>
-                <label for=""> Meld je aan voor de nieuwsbrief
-                  <input type="text" id="" name="" placeholder="Email">
-                  <input type="submit" value="Aanmelden" class="submitButton" id="">
-                </label>
+                <form>
+                    <label for="Email"> Meld je aan voor de nieuwsbrief
+                  <input type="email" id="email" name="" placeholder="Email" required>
+                  <input type="submit" value="&rarr;" class="submitButton" id="">
+                </label></form>
             </article>
         </section>
 
@@ -105,8 +118,8 @@
                 <img src="https://www.tropenmuseum.nl/themes/custom/tropenmuseum_maintheme/logo.svg" alt="logo" class="logo">
             </a>
             <ul>
-                <li>Zien en doen</li>
-                <li>Plan je bezoek</li>
+                <li><a href="overtropenmuseum.html">Zien en doen</a></li>
+                <li><a href="overtropenmuseum.html">Plan je bezoek</a></li>
                 <li><img src="images\search-icon.svg" alt="zoek knop"></li>
                 <li><select name="language" id="selectbox">
                       <option value="NL">NL &#709;</option>
@@ -122,9 +135,11 @@
         <section class="leading">
             <video width="100%" autoplay muted loop>
 		          <source src="images\Tropenmuseum in Amsterdam  Een museum over wereldculturen.mp4" type="video/mp4">
-	        	</video>
+                </video>
+            <a href="overtropenmuseum.html"></a>
             <p class="subTitleArticle">Nu te zien</p>
             <h1 class="article-title">Bali - Behind the scenes</h1>
+            </a>
         </section>
 
 
@@ -133,13 +148,13 @@
                 <img class="article-img" src="images\image (1).jpg" alt=" " />
                 <h2 class="article-title">Tickets</h2>
             </a>
-            <a href="">
+            <a href="overtropenmuseum.html">
                 <img class="article-img" src="https://www.tropenmuseum.nl/sites/default/files/styles/hero_mobile/public/Tropenmuseum%20campagnebeeld%20liggend2.jpg?itok=GLy6gTpE" alt=" " />
                 <p>Nu te zien</p>
                 <h2 class="article-title">What a genderfull world</h2>
             </a>
 
-            <a href="">
+            <a href="overtropenmuseum.html">
                 <div class="article-img">
                     <img src="https://www.tropenmuseum.nl/sites/default/files/styles/hero_mobile/public/Header_1.jpg?itok=KPY2hpxA" alt=" " />
                 </div>
@@ -147,55 +162,55 @@
                 <h2 class="article-title">SABI Suriname</h2>
             </a>
 
-            <a href="">
+            <a href="overtropenmuseum.html">
                 <img class="article-img" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_/public/a%20future%20image_0.jpg?itok=oehZVxQW" alt=" " />
                 <p>Wat kan het muesum doen?</p>
                 <h2 class="article-title">Een toekomst waarin racisme geen plaats heeft</h2>
             </a>
 
-            <a href="">
+            <a href="overtropenmuseum.html">
                 <img class="article-img" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_/public/HVHS%20-%20roze_0.jpg?h=27ab93cf&itok=Ipw5POX8" alt=" " />
                 <p>Nu te zien</p>
                 <h2 class="article-title">Heden van het slavernijverleden</h2>
             </a>
 
-            <a href="">
+            <a href="overtropenmuseum.html">
                 <img class="article-img" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_/public/Wereld%20museum%20Museumnacht%20%2842%20of%20108%29.jpg?itok=R_FUfEB4" alt=" " />
                 <p>Ons online museum</p>
                 <h2 class="article-title">Wereldverhalen | Het online museum</h2>
             </a>
 
-            <a href="">
+            <a href="overtropenmuseum.html">
                 <img class="article-img" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_/public/2019%252001%252020%2520Tropenmuseum%2520Feestruimte-053.jpg?itok=lM4DszkU" alt=" " />
                 <h2 class="article-title"> Families</h2>
             </a>
 
-            <a href="">
+            <a href="overtropenmuseum.html">
                 <img class="article-img" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_/public/%27Mocro%27%20event%20Tropenmuseum%20%C2%A9%20KIRSTENVANSANTEN.jpg?h=11febe96&itok=GjjweqKQ" alt=" " />
 
                 <h2 class="article-title">Groepen</h2>
             </a>
 
 
-            <a href="">
+            <a href="overtropenmuseum.html">
                 <img class="article-img" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_/public/Koloniaal%20verleden_1.jpg?h=1bbd40be&itok=aJ97BcPm" alt=" " />
 
                 <h2 class="article-title">Onderwijs</h2>
             </a>
 
-            <a href="">
+            <a href="overtropenmuseum.html">
                 <img class="article-img" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_/public/onze%20collectie.jpg?h=97b67fe9&itok=zowioTb8" alt=" " />
 
                 <h2 class="article-title">Onze collectie</h2>
             </a>
 
-            <a href="">
+            <a href="overtropenmuseum.html">
                 <img class="article-img" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_/public/190227_tmj_suriname_educatie_harvey_header_RECHTS.jpg?h=7c4178f1&itok=R-xPtFOC" alt=" " />
 
                 <h2 class="article-title">Tropenmuseum junior</h2>
             </a>
 
-            <a href="">
+            <a href="overtropenmuseum.html">
                 <img class="article-img" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_/public/opening%20tropenmuseum.jpg?h=344ba726&itok=t56p1NWH" alt=" " />
                 <h2 class="article-title">Geschiedenis tropenmuseum</h2>
             </a>
@@ -215,25 +230,28 @@
             <article>
                 <h3>Navigeeren naar</h3>
                 <ul>
-                    <li>koop tickets</li>
-                    <li>onze colectie</li>
-                    <li>Over tropeenmuseum</li>
+                    <li><a href="overtropenmuseum.html">koop tickets</a></li>
+                    <li><a href="overtropenmuseum.html">onze colectie</a></li>
+                    <li><a href="overtropenmuseum.html">Over tropeenmuseum</a></li>
                 </ul>
             </article>
 
             <article>
                 <h3>Bezoek nu</h3>
                 <ul>
-                    <li>What a Genderful World </li>
-                    <li>Bali - Behind the scenes</li>
-                    <li>Sabi Suriname</li>
+                    <li><a href="overtropenmuseum.html">What a Genderful World</a> </li>
+                    <li><a href="overtropenmuseum.html"> Bali - Behind the scenes</a></li>
+                    <li><a href="overtropenmuseum.html">Sabi Suriname</a></li>
                 </ul>
             </article>
 
             <article>
                 <h3>Nieuwsbrief</h3>
-                <input type="text" id="" name="" placeholder="Email">
-                <input type="submit" value="Aanmelden" class="submitButton" id="">
+                <form>
+                    <input type="email" id="email" name="" placeholder="Email">
+                    <input type="submit" value="&rarr;" class="submitButton" id="">
+                </form>
+
                 <ul class="socials">
                     <li class="icon-Facebook">
                         <a href="https://www.instagram.com/tropenmuseum/"> <img src="images\iconfinder_facebook-logo_1269914.svg" alt="Facebook"></a>

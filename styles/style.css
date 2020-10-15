@@ -53,6 +53,16 @@ nav>ul>li:nth-child(2)>img {
     width: 2rem;
 }
 
+nav ul li a {
+    color: #EA4E55;
+    text-decoration: none;
+}
+
+nav ul li a:visited {
+    text-decoration: none;
+    color: #EA4E55;
+}
+
 nav ul {
     list-style: none;
     display: flex;
@@ -98,6 +108,10 @@ nav ul li {
     left: 0;
 }
 
+.fullscreen-menu>nav {
+    background-color: #F7F7F7;
+}
+
 .zoek {
     display: none;
 }
@@ -113,15 +127,25 @@ nav ul li {
 .cross {
     width: 7em;
     height: 3em;
-    background-color: #EA4E55;
     cursor: pointer;
     z-index: 5;
+}
+
+.cross>p {
+    color: #EA4E55;
 }
 
 .centering {
     margin-left: 25%;
     max-width: 40em;
 }
+
+
+/*
+.fullscreen-menu>.centering>article:first-of-type {
+    display: none;
+}
+*/
 
 .centering>.mobile-zoeken {
     margin-top: 2em;
@@ -141,12 +165,22 @@ nav ul li {
     font-size: 1.4rem;
 }
 
+.fullscreen-menu>section>article:nth-child(2)>ul>li>a {
+    color: #ea4e55;
+    text-decoration: none;
+}
+
 .fullscreen-menu>section>article:nth-child(3)>ul>li {
     color: #ea4e55;
     margin-bottom: 10px;
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 1em;
+}
+
+.fullscreen-menu>section>article:nth-child(3)>ul>li>a {
+    color: #ea4e55;
+    text-decoration: none;
 }
 
 label {
@@ -183,7 +217,7 @@ button {
     margin-bottom: 1em;
     margin-left: 2em;
     display: flex;
-    justify-content: flex-start;
+    justify-content: end;
 }
 
 
@@ -479,8 +513,26 @@ h3 {
 
 /* nieuwsbrief----------------------------------------------*/
 
+.fullscreen-menu>.centering>article:nth-child(3)>form {
+    display: flex;
+}
+
 input[type=text] {
-    padding: 9px 123px 9px 1rem;
+    padding: 9px 9px 9px 1rem;
+    border: solid 1px #ddd;
+    color: #333;
+    background: white;
+    font-size: 1rem;
+    max-height: 4rem;
+    text-align: left;
+}
+
+form {
+    display: inline-block;
+}
+
+input[type=email] {
+    padding: 9px 9px 9px 1rem;
     border: solid 1px #ddd;
     color: #333;
     background: white;
@@ -494,6 +546,8 @@ input[type=submit] {
     background: #ea4e55;
     color: white;
     border: none;
+    height: 3rem;
+    width: 3rem;
 }
 
 footer>section>article {
@@ -510,6 +564,11 @@ footer>section>article>ul>li {
     margin-top: 1em;
     font-family: 'Montserrat';
     color: #999999;
+}
+
+footer>section>article>ul>li>a {
+    color: #999999;
+    text-decoration: none;
 }
 
 
@@ -544,6 +603,7 @@ footer>section>article>ul>li {
 footer>Span {
     float: right;
     color: #999999;
+    margin-bottom: 2em;
 }
 
 
@@ -720,10 +780,16 @@ footer>Span {
 
 .page2>.cards>a {
     text-decoration: none;
+    width: 100%;
+}
+
+.page2>.cards>a>img {
+    width: 90%;
 }
 
 .page2>.cards>a>section {
     margin-top: .8rem;
+    max-width: 30rem;
 }
 
 .page2>.cards>a>section>p {
@@ -746,20 +812,32 @@ footer>Span {
 }
 
 .page2>.cards {
-    padding: 6em;
-    padding-top: 6em;
     grid-column-gap: 4em;
     grid-row-gap: 2em;
-    padding-bottom: 12em;
+    width: 90%;
 }
 
-.page>.cards>a>.article-image {
+.page2>.cards>a>.article-image {
     width: 100%;
     height: auto;
     object-fit: cover;
 }
 
-@media screen and (max-width: 45em) {
+
+/* Ipad media query */
+
+@media screen and (max-width: 80rem) {
+    .page2>.cards {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        padding: 0;
+    }
+}
+
+
+/* Mobile media query  */
+
+@media screen and (max-width: 45rem) {
     #navigation {
         width: 100%;
         height: 60%;
@@ -780,6 +858,13 @@ footer>Span {
     }
     .fullscreen-menu>section>article {
         margin-bottom: 2em;
+    }
+    .fullscreen-menu>article:nth-child(3) {
+        margin-top: 2em;
+        margin-bottom: 1em;
+        margin-left: 2em;
+        display: flex;
+        justify-content: start;
     }
     .cards,
     footer>section {
@@ -832,7 +917,17 @@ footer>Span {
         font-weight: 700;
     }
     .page2>.cards {
-        padding: 1.4em;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .page2>.cards>a {
+        width: 90%;
+    }
+    .page2>.cards>a>img {
+        width: 100%;
     }
     .page2>.cards>a>section>h2 {
         font-size: 0.9rem;
@@ -849,15 +944,6 @@ footer>Span {
         color: #666;
         text-align: left;
         margin-top: 0.3rem;
+        max-width: 20rem;
     }
 }
-
-
-/*
-@media screen and (max-width: 75em) {
-    .page2>.cards {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-*/
