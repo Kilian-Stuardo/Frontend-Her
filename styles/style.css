@@ -110,6 +110,7 @@ nav ul li {
 
 .fullscreen-menu>nav {
     background-color: #F7F7F7;
+    margin: 0 10em;
 }
 
 .fullscreen-menu>section>article {
@@ -192,6 +193,10 @@ label {
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 1em;
+}
+
+#form {
+    display: flex;
 }
 
 button {
@@ -555,8 +560,8 @@ input[type=submit] {
     background: #ea4e55;
     color: white;
     border: none;
-    height: 3rem;
-    width: 3rem;
+    height: 2.4rem;
+    width: 2.4rem;
 }
 
 footer>section>article {
