@@ -112,10 +112,6 @@ nav ul li {
     background-color: #F7F7F7;
 }
 
-.zoek {
-    display: none;
-}
-
 .fullscreen-menu>section>article {
     margin-right: 2em;
 }
@@ -147,8 +143,15 @@ nav ul li {
 }
 */
 
+.zoek {
+    display: block;
+    height: 2rem;
+    width: 2rem;
+}
+
 .centering>.mobile-zoeken {
     margin-top: 2em;
+    display: none;
 }
 
 .centering>.mobile-zoeken>h3 {
@@ -379,7 +382,7 @@ main>.cards>a:nth-child(12) {
 /* Generic styles ----------------------------------------------*/
 
 .leading {
-    height: 380px;
+    height: 500px;
     padding: 23px;
     background-size: cover;
     position: relative;
@@ -425,14 +428,14 @@ main>.cards>a:nth-child(12) {
 
 h1 {
     position: absolute;
-    bottom: 18px;
-    margin-left: 10px;
+    bottom: 59px;
+    margin-left: 94px;
     padding: 10px;
     background-color: #FFFFFF;
     color: #EA4E55;
     font-family: arial;
     text-transform: uppercase;
-    font-size: 1em;
+    font-size: 2em;
     font-weight: 700;
 }
 
@@ -474,8 +477,8 @@ p {
 .subTitleArticle {
     position: absolute;
     bottom: 0;
-    margin-bottom: 70px;
-    margin-left: 10px;
+    margin-bottom: 149px;
+    margin-left: 96px;
     color: #FFFFFF;
     background-color: #EA4E55;
     padding: .4em;
@@ -518,7 +521,7 @@ h3 {
 }
 
 input[type=text] {
-    padding: 9px 9px 9px 1rem;
+    padding: 9px 125px 9px 1rem;
     border: solid 1px #ddd;
     color: #333;
     background: white;
@@ -540,6 +543,12 @@ input[type=email] {
     max-height: 4rem;
     text-align: left;
 }
+
+
+/*
+.fullscreen-menu>.centering>article:nth-child(3)>input[type=submit] {
+    margin-left: -6em;
+}*/
 
 input[type=submit] {
     line-height: 2.3rem;
@@ -827,10 +836,38 @@ footer>Span {
 /* Ipad media query */
 
 @media screen and (max-width: 80rem) {
+    .leading {
+        height: 386px;
+    }
     .page2>.cards {
         grid-template-columns: repeat(2, 1fr);
         width: 90%;
         padding: 0;
+    }
+    nav img {
+        width: 5em;
+        height: 1.6em;
+    }
+    h1 {
+        position: absolute;
+        bottom: 18px;
+        margin-left: 10px;
+        padding: 10px;
+        background-color: #FFFFFF;
+        color: #EA4E55;
+        font-family: arial;
+        text-transform: uppercase;
+        font-size: 1em;
+        font-weight: 700;
+    }
+    .subTitleArticle {
+        position: absolute;
+        bottom: 0;
+        margin-bottom: 70px;
+        margin-left: 10px;
+        color: #FFFFFF;
+        background-color: #EA4E55;
+        padding: .4em;
     }
 }
 
@@ -865,6 +902,12 @@ footer>Span {
         margin-left: 2em;
         display: flex;
         justify-content: start;
+    }
+    .zoek {
+        display: none;
+    }
+    .centering>.mobile-zoeken {
+        display: block;
     }
     .cards,
     footer>section {

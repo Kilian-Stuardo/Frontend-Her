@@ -16,7 +16,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 8. https://github.com/TuriGuilano/css_position
 9. https://www.internetingishard.com/html-and-css/flexbox/#flex-container-order
 10. https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
-11. 
+11. https://favicon.io/favicon-converter/
+12. 
 
 
 
@@ -62,7 +63,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ### Verslag van meeting
-
+het gesprek ging goed dit keer voor het eerst met jelmer.
+ik kreeg complimenten op wat ik al had en er werd gevraagd wat ik nog moest doen. ik wist al dat ik nog wat details moest toevoegen en nog wat bugs fixen
 
 
 
