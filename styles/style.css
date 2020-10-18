@@ -132,6 +132,7 @@ nav ul li {
     cursor: pointer;
     z-index: 5;
     display: flex;
+    margin-right: 5em;
 }
 
 .cross:hover {
@@ -364,7 +365,7 @@ main>.cards>a:nth-child(5) {
 @media screen and (max-width: 70rem) {
     main>.cards>a:nth-child(2)>p,
     main>.cards>a:nth-child(5)>p {
-        margin-bottom: 98px;
+        margin-bottom: 70px;
     }
 }
 
@@ -986,6 +987,9 @@ footer>section:last-of-type>article>p {
     }
     .fullscreen-menu>.centering>article:nth-child(3)>form {
         margin-top: 1em;
+    }
+    .cross {
+        margin-right: 1em;
     }
     .zoek {
         display: none;
