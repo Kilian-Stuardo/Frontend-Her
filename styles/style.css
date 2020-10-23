@@ -106,10 +106,6 @@ nav ul li {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    top: 50%;
-    bottom: 0;
-    right: 0;
-    left: 0;
 }
 
 .fullscreen-menu>nav {
@@ -348,6 +344,9 @@ main>.cards>a:nth-child(5) {
     grid-row: 3;
 }
 
+
+/* Responsive -------------------------------------------------*/
+
 @media screen and (max-width: 45rem) {
     main>.cards>a:nth-child(4)>p,
     main>.cards>a:nth-child(6)>p {
@@ -423,6 +422,17 @@ main>.cards>a:nth-child(11) {
 main>.cards>a:nth-child(12) {
     grid-column: 3/4;
     grid-row: 6;
+}
+
+
+/* hover -------------------------------------------------*/
+
+.leading>video>a:hover {
+    filter: brightness(75%);
+}
+
+.cards>a:hover>img {
+    filter: brightness(75%);
 }
 
 
