@@ -32,6 +32,7 @@ Ookal ik niet al te goed met html en css ben, vind ik dat ik nog best wat aardig
 <details open>
 <summary>Screenshots Final</summary>
 <br>
+
 ![Screenshot_2020-10-25 Tropenmuseum in Amsterdam(1)](https://user-images.githubusercontent.com/45419401/97116011-c5236b80-16fa-11eb-8288-28823ae4ffeb.jpg)
 
 ![Screenshot_2020-10-25 Tropenmuseum in Amsterdam](https://user-images.githubusercontent.com/45419401/97116032-e2f0d080-16fa-11eb-9712-e77e71231fc3.jpg)
