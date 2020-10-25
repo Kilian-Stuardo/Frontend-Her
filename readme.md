@@ -26,12 +26,21 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+Ookal ik niet al te goed met html en css ben, vind ik dat ik nog best wat aardigs neergezet heb. Ik weet dat er nog wel wat foutjes zijn en dingen die beter kunnen en wat detail, wat ik waarschijnlijk over het hoofd gezien heb maar ik ben erg teverden met wat ik neergezet heb. Ik gaf in  het begin al aan dat ik blauwe piesten ben en niet al te goed ben maar ik merk zelf wel dat ik het al steed meer begrijp, zeker sinds de minor ben ik er al een stuk beter in geworden. Ik heb nog wel wat stuggels gehad met de responsiveness van mijn site, ik had de fout gemaakt om niet mobile first te beginnen omdat ik erg gefocused was op het grid omdat ik me daar zorgen om maakten aangezien ik daar niet al te veel ervaring mee had. 
 
 **Screenshot(s):**
+<details open>
+<summary>Screenshots Final</summary>
+<br>
+![Screenshot_2020-10-25 Tropenmuseum in Amsterdam(1)](https://user-images.githubusercontent.com/45419401/97116011-c5236b80-16fa-11eb-8288-28823ae4ffeb.jpg)
 
--screenshot(s) van je eindresultaat-
+![Screenshot_2020-10-25 Tropenmuseum in Amsterdam](https://user-images.githubusercontent.com/45419401/97116032-e2f0d080-16fa-11eb-9712-e77e71231fc3.jpg)
 
+![Screenshot_2020-10-25 Over het Tropenmuseum Tropenmuseum(1)](https://user-images.githubusercontent.com/45419401/97116071-0fa4e800-16fb-11eb-8818-22a66233dc3f.jpg)
 
+![Screenshot_2020-10-25 Over het Tropenmuseum Tropenmuseum](https://user-images.githubusercontent.com/45419401/97116089-24817b80-16fb-11eb-964e-dd416760ce4f.jpg)
+
+</details>
 
 ## Voortgang 3 (week 6)
 
