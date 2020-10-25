@@ -20,7 +20,7 @@ header {
     left: 0;
     right: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 
 nav {
@@ -431,7 +431,8 @@ main>.cards>a:nth-child(12) {
     filter: brightness(75%);
 }
 
-.cards>a:hover>img {
+.cards>a:hover>img,
+.cards>a:hover>div>img {
     filter: brightness(75%);
 }
 
@@ -443,7 +444,7 @@ main>.cards>a:nth-child(12) {
     padding: 23px;
     background-size: cover;
     position: relative;
-    z-index: -1;
+    z-index: 1;
     overflow: hidden;
     max-width: 115rem;
     display: block;
@@ -451,7 +452,13 @@ main>.cards>a:nth-child(12) {
     padding: 0rem;
 }
 
-.leading>video {
+.leading>a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.leading>a>video {
     position: absolute;
     right: 0;
     bottom: 0;
@@ -672,14 +679,14 @@ footer>section>article>ul>li>a {
 /* afrika museum part ----------------------------------------------*/
 
 .domain-logo {
-    height: 4em;
+    height: 3em;
 }
 
 footer>Span {
     float: right;
     color: #999999;
     margin-bottom: 2em;
-    margin-right: 3em;
+    margin-right: 1em;
     font-weight: 400;
     font-size: 0.9rem;
 }
@@ -743,6 +750,10 @@ footer>section:last-of-type>article>p {
     font-size: 2.5rem;
     text-transform: uppercase;
     font-weight: 700;
+}
+
+.page2>.leading {
+    z-index: -1;
 }
 
 
@@ -1015,6 +1026,12 @@ footer>section:last-of-type>article>p {
     }
     footer>section:first-of-type>article:first-of-type {
         display: none;
+    }
+    footer>section>article {
+        width: auto;
+    }
+    footer>section {
+        padding: 0em;
     }
     /* Page 2 styling ---------------------------------*/
     .page2>main {
