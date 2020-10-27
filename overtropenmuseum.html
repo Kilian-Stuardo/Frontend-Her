@@ -6,10 +6,10 @@
     <meta name="author" content="jouw naam">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="apple-touch-icon" sizes="180x180" href="images\apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images\favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="images\favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+
 
     <title>Over het Tropenmuseum | Tropenmuseum</title>
 
@@ -18,14 +18,16 @@
 </head>
 
 <body class="page2">
+    <!--Start Hamburger menu-->
     <div class="fullscreen-menu">
 
         <nav>
             <a href="index.html">
+                <!--Bron img: https://www.tropenmuseum.nl/nl -->
                 <img src="https://www.tropenmuseum.nl/themes/custom/tropenmuseum_maintheme/logo.svg" alt="logo" class="logo">
             </a>
             <div class="nav-items">
-                <img src="images\search-icon.svg" alt="zoek knop" class="zoek">
+                <img src="images/search-icon.svg" alt="zoek knop" class="zoek">
                 <p class="cross">sluit menu X</p>
             </div>
         </nav>
@@ -75,7 +77,8 @@
                 <form>
                     <label for="email"> Meld je aan voor de nieuwsbrief
                    <fieldset id="form">
-                       <input type="email" id="email" name="" placeholder="Email" required><input type="submit" value="&rarr;" class="submitButton" id="">
+                       <input type="email" id="email" name="email" placeholder="Email" required>
+                       <input type="submit" value="&rarr;" class="submitButton" id="emailsubmit">
                    </fieldset>    
                 </label>
                 </form>
@@ -83,72 +86,83 @@
         </section>
 
         <article>
-
             <ul class="socials">
-
                 <li class="icon-Facebook">
-
-                    <a href="https://www.instagram.com/tropenmuseum/"> <img src="images\iconfinder_facebook-logo_1269914.svg" alt="Facebook"></a>
+                    <!--Bron img:https://www.iconfinder.com/icons/1269914/social_media_facebook_social_icon  -->
+                    <a href="https://www.facebook.com/tropenmuseum/"> <img src="images/iconfinder_facebook-logo_1269914.svg" alt="Facebook"></a>
                 </li>
 
                 <li class="icon-Twitter">
-
-                    <a href="https://www.instagram.com/tropenmuseum/"> <img src="images\iconfinder_03-twitter_104501.svg" alt="Twitter"></a>
+                    <!--Bron img:https://www.iconfinder.com/icons/765208/media_twitter_social_icon  -->
+                    <a href="https://twitter.com/Tropenmuseum"> <img src="images/iconfinder_03-twitter_104501.svg" alt="Twitter"></a>
                 </li>
 
                 <li class="icon-linkedin">
-
-                    <a href="https://www.instagram.com/tropenmuseum/"> <img src="images\iconfinder_linked_in_104828.svg" alt="Linkedin"></a>
+                    <!--Bron img:https://www.iconfinder.com/icons/5282542/linkedin_network_social_network_linkedin_logo_icon  -->
+                    <a href="https://www.linkedin.com/company/372251/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_companies%3BXGURkMkYR6eoRBTxyZ3X4A%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_search_srp_companies-search_srp_result&lici=f1jxlu5XQguWhYYcyOlWHg%3D%3D"> <img src="images/iconfinder_linked_in_104828.svg" alt="Linkedin"></a>
                 </li>
 
                 <li class="icon-instagram">
-
-                    <a href="https://www.instagram.com/tropenmuseum/"> <img src="images\iconfinder_Instagram_glyph_svg_5335781.svg" alt="Instagram"></a>
+                    <!--Bron img:https://www.iconfinder.com/icons/4373701/instagram_logo_logos_icon  -->
+                    <a href="https://www.instagram.com/tropenmuseum/"> <img src="images/iconfinder_Instagram_glyph_svg_5335781.svg" alt="Instagram"></a>
                 </li>
 
                 <li class="youtube-icon">
-
-                    <a href="https://www.youtube.com/user/Tropenmuseum"> <img src="images\iconfinder_youtube-social-media_765195.svg" alt="YouTube"></a>
+                    <!--Bron img: https://www.iconfinder.com/icons/765195/media_youtube_social_icon -->
+                    <a href="https://www.youtube.com/user/Tropenmuseum"> <img src="images/iconfinder_youtube-social-media_765195.svg" alt="YouTube"></a>
                 </li>
             </ul>
         </article>
     </div>
+    <!--End Hamburger menu-->
 
     <header>
 
+        <!--Start Navigation-->
         <nav id="navigation">
             <a href="index.html">
+                <!--Bron img: https://www.tropenmuseum.nl/nl -->
                 <img src="https://www.tropenmuseum.nl/themes/custom/tropenmuseum_maintheme/logo.svg" alt="logo" class="logo">
             </a>
             <ul>
                 <li><a href="">Zien en doen</a></li>
                 <li><a href="">Plan je bezoek</a></li>
-                <li><img src="images\search-icon.svg" alt="zoek knop"></li>
+                <li><img src="images/search-icon.svg" alt="zoek knop"></li>
                 <li><select name="language" id="selectbox">
                       <option value="NL">NL &#709;</option>
                       <option value="EN">EN</option>
                     </select>
                 </li>
-                <li id="fullimage"><img src="images\iconfinder_Menu2_1031510.svg" alt="dropdown image"></li>
+                <li id="fullimage"><img src="images/iconfinder_Menu2_1031510.svg" alt="dropdown image"></li>
             </ul>
         </nav>
+        <!--End Navigation-->
     </header>
 
+
+
+    <!--Start Breadcrumb-->
     <ol>
         <li> <a href="index.html">Home </a> > </li>
         <li> Over het Tropenmuseum</li>
     </ol>
+    <!--End Breadcrumb-->
 
+
+    <!--Start Leading image-->
     <section class="leading">
-
+        <!--Bron img: https://www.tropenmuseum.nl/nl -->
         <img class="article-img" src="https://www.tropenmuseum.nl/sites/default/files/styles/hero/public/over_ons%20%281%29.jpg?itok=tC04J7Pc" alt=" " />
 
         <h1 class="article-title">Over het Tropenmuseum</h1>
     </section>
+    <!--End Leading image-->
 
+
+    <!--Start main -->
     <main>
         <section>
-
+            <!--Start main text 1-->
             <section>
                 <h2>Een museum over wereldculturen</h2>
                 <p>Het Tropenmuseum is een museum over wereldculturen, gevestigd in een van de mooiste museumgebouwen van Nederland. Het indrukwekkende rijksmonument gelegen aan het Oosterpark, in het hart van Amsterdam Oost, dateert uit 1926</p>
@@ -157,7 +171,10 @@
                     over universele menselijke thema’s zoals rouwen, vieren, versieren, bidden of vechten. Ze maken nieuwsgierig naar de enorme culturele diversiteit die de wereld rijk is. In het Tropenmuseum ontdek je dat we op de verschillen na, allemaal
                     hetzelfde zijn: mens.</p>
             </section>
+            <!--End main text 1-->
 
+
+            <!--Start main text 2-->
             <section>
                 <h3>Algemene voorwaarden & Privacy statement</h3>
                 <p>Als museum over mensen hechten wij veel waarde aan jouw privacy, gemak en veiligheid tijdens een bezoek. Lees in het
@@ -165,7 +182,10 @@
                     <a href="https://www.tropenmuseum.nl/nl/algemene-voorwaarden">algemene voorwaarden</a>
                 </p>
 
-                <iframe allowfullscreen="allowfullscreen" src="https://www.youtube.com/embed/kyGBnS43wdA?autoplay=0&amp;start=0&amp;rel=0" width="100%" height="400" frameborder="0"></iframe>
+                <video width="100%" controls>
+                    <!--Bron video:https://www.tropenmuseum.nl/nl  ||  https://www.youtube.com/watch?v=kyGBnS43wdA&feature=emb_title -->
+		          <source src="images/Welcome-at-the-Tropenmuseum-in-Amsterdam.mp4" type="video/mp4">
+                </video>
 
                 <p>Met de opening van de vaste tentoonstelling
                     <a href="https://www.tropenmuseum.nl/nl/things-that-matter">Things That Matter</a> in 2018 heeft het Tropenmuseum de geografische indeling losgelaten en verlegt het de focus naar universele thema’s die mensen wereldwijd verbinden.
@@ -180,10 +200,12 @@
                 <p>Tropenmuseum Junior staat bekend om het aansprekende museumconcept (zien, aanraken, beleven en meedoen) en heeft als algemene doelstelling het stimuleren van een open blik op de wereld. </p>
                 <a href="https://www.tropenmuseum.nl/nl/zien-en-doen/tentoonstellingen/sabi-suriname">Lees meer over Tropenmuseum Junior &gt;</a>
             </section>
+            <!--End main text 2-->
+
         </section>
 
 
-
+        <!--Start Aside-->
         <aside>
             <h3>Adres en route</h3>
             <p>Tropenmuseum, Linnaeusstraat 2,
@@ -198,13 +220,17 @@
                 <a href="/nl/node/38">Openingstijden en prijzen&nbsp; ›</a>
             </p>
         </aside>
+        <!--End Aside-->
 
     </main>
+    <!--End main -->
 
 
-
+    <!--Start Grid cards-->
+    <!--Bron: https://css-tricks.com/snippets/css/complete-guide-grid/ -->
     <section class="cards">
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/Organisatie_0.jpg?itok=kCV9l7D_" alt=" " />
             <section>
                 <h2 class="article-title"> Organisatie</h2>
@@ -213,6 +239,7 @@
         </a>
 
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/Jaar%20in%20beeld%20Tropenmuseum.jpg?itok=LthgpF6x" alt=" " />
             <section>
                 <h2 class="article-title">Missie</h2>
@@ -222,6 +249,7 @@
 
 
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/onze%20collectie.jpg?h=95e61b22&itok=DCnzS8h7" alt=" " />
             <section>
                 <h2 class="article-title">Onze collectie</h2>
@@ -230,6 +258,7 @@
         </a>
 
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/Jaar%20in%20beeld%20Tropenmuseum.jpg?itok=LthgpF6x" alt=" " />
             <section>
                 <h2 class="article-title">Jaar in beeld:2018</h2>
@@ -238,6 +267,7 @@
         </a>
 
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/Tropenmuseum%201%20klein.jpg?itok=iOK_4nhS" alt=" " />
             <section>
                 <h2 class="article-title">Gezamenlijk herkomstonderzoek koloniale collecties</h2>
@@ -246,6 +276,7 @@
         </a>
 
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/Missiepartners_0.jpg?itok=FvedNS-A" alt=" " />
             <section>
                 <h2 class="article-title">Missiepartners</h2>
@@ -254,6 +285,7 @@
         </a>
 
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/Kennis%20en%20onderzoek.jpg?itok=4VwlpW-l" alt=" " />
             <section>
                 <h2 class="article-title">Research Center for Material Culture</h2>
@@ -262,6 +294,7 @@
         </a>
 
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/words_matter_-_woordbeeld.jpg?itok=lpzlhj1G" alt=" " />
             <section>
                 <h2 class="article-title">Words Matter - Publicatie</h2>
@@ -270,6 +303,7 @@
         </a>
 
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/Art%20Rocks%20Masterclass%2009-10-2016%20by%20KIRSTENVANSANTEN-17.jpg?itok=R52x4Mc4" alt=" " />
             <section>
                 <h2 class="article-title">Vacatures</h2>
@@ -278,6 +312,7 @@
         </a>
 
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/Steun%20ons.jpg?itok=o5ZehnTp" alt=" " />
             <section>
                 <h2 class="article-title">Contact</h2>
@@ -286,6 +321,7 @@
         </a>
 
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/Tropenmuseum%20Cool%20Japan%20-%20Picture%20by%20%C2%A9KIRSTENVANSANTEN-3.JPG?itok=VRDWqu4Z" alt=" " />
             <section>
                 <h2 class="article-title">Marketingpartners</h2>
@@ -294,6 +330,7 @@
         </a>
 
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/schenken.jpg?itok=i53GqbvZ" alt=" " />
             <section>
                 <h2 class="article-title">Schenken en nalaten</h2>
@@ -301,6 +338,7 @@
             </section>
         </a>
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/DJI_0102.jpg?itok=sIC0r50A" alt=" " />
             <section>
                 <h2 class="article-title">Jaarverantwoording & ANBI</h2>
@@ -308,6 +346,7 @@
             </section>
         </a>
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/Collectie%20-%20Bruiklenen.jpg?itok=cdganexn" alt=" " />
             <section>
                 <h2 class="article-title">Bruikleenaanvragen</h2>
@@ -315,6 +354,7 @@
             </section>
         </a>
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/bgl_ggg_cheques_Wereldculturen.jpg?h=cc8453f4&itok=BtFHGZSu" alt=" " />
             <section>
                 <h2 class="article-title">De BankGiro Loterij</h2>
@@ -322,6 +362,7 @@
             </section>
         </a>
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/Tropenmuseum%20of%20World%20Cultures%20in%20Amsterdam%20East%20-%20Rob%20van%20Esch.jpg?itok=78uytfdQ" alt=" " />
             <section>
                 <h2 class="article-title">Jouw mening telt!</h2>
@@ -329,6 +370,7 @@
             </section>
         </a>
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/museumnacht.png?h=d713359f&itok=kKVJMDns" alt=" " />
             <section>
                 <h2 class="article-title">Stichting Nationaal Museum van Wereldculturen</h2>
@@ -336,6 +378,7 @@
             </section>
         </a>
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/Tropenmuseum%20oud%20en%20nieuw.jpg?itok=nocy4-vd" alt=" " />
             <section>
                 <h2 class="article-title">Nieuws</h2>
@@ -343,6 +386,7 @@
             </section>
         </a>
         <a href="">
+            <!--Bron img: https://www.tropenmuseum.nl/nl -->
             <img class="article-image" src="https://www.tropenmuseum.nl/sites/default/files/styles/teaser_mobile/public/2020-09-22%2013_17_06-Window.png?itok=NJ8H0gyC" alt=" " />
             <section>
                 <h2 class="article-title">Teruggave van culturele objecten; principes en processen</h2>
@@ -351,10 +395,14 @@
         </a>
 
     </section>
+    <!--End grid cards-->
 
+    <!--Start Footer-->
     <footer>
+        <!--Start Footer deel 1-->
         <section>
             <article class="info">
+                <!--Bron img: https://www.tropenmuseum.nl/nl -->
                 <img src="https://www.tropenmuseum.nl/themes/custom/tropenmuseum_maintheme/assets/img/logo.svg" alt="" />
                 <a href="">info@tropenmuseum.nl</a>
                 <a href="">Contactformulier</a>
@@ -382,61 +430,80 @@
             <article>
                 <h3>Nieuwsbrief</h3>
                 <form>
-                    <input type="email" id="email" name="" placeholder="Email"><input type="submit" value="&rarr;" class="submitButton" id="">
+
                 </form>
                 <ul class="socials">
                     <li class="icon-Facebook">
-                        <a href="https://www.instagram.com/tropenmuseum/"> <img src="images\iconfinder_facebook-logo_1269914.svg" alt="Facebook"></a>
+                        <!--Bron img:https://www.iconfinder.com/icons/1269914/social_media_facebook_social_icon  -->
+                        <a href="https://www.facebook.com/tropenmuseum/"> <img src="images/iconfinder_facebook-logo_1269914.svg" alt="Facebook"></a>
                     </li>
+
                     <li class="icon-Twitter">
-                        <a href="https://www.instagram.com/tropenmuseum/"> <img src="images\iconfinder_03-twitter_104501.svg" alt="Twitter"></a>
+                        <!--Bron img:https://www.iconfinder.com/icons/765208/media_twitter_social_icon  -->
+                        <a href="https://twitter.com/Tropenmuseum"> <img src="images/iconfinder_03-twitter_104501.svg" alt="Twitter"></a>
                     </li>
+
                     <li class="icon-linkedin">
-                        <a href="https://www.instagram.com/tropenmuseum/"> <img src="images\iconfinder_linked_in_104828.svg" alt="Linkedin"></a>
+                        <!--Bron img:https://www.iconfinder.com/icons/5282542/linkedin_network_social_network_linkedin_logo_icon  -->
+                        <a href="https://www.linkedin.com/company/372251/?lipi=urn%3Ali%3Apage%3Ad_flagship3_search_srp_companies%3BXGURkMkYR6eoRBTxyZ3X4A%3D%3D&licu=urn%3Ali%3Acontrol%3Ad_flagship3_search_srp_companies-search_srp_result&lici=f1jxlu5XQguWhYYcyOlWHg%3D%3D"> <img src="images/iconfinder_linked_in_104828.svg" alt="Linkedin"></a>
                     </li>
+
                     <li class="icon-instagram">
-                        <a href="https://www.instagram.com/tropenmuseum/"> <img src="images\iconfinder_Instagram_glyph_svg_5335781.svg" alt="Instagram"></a>
+                        <!--Bron img:https://www.iconfinder.com/icons/4373701/instagram_logo_logos_icon  -->
+                        <a href="https://www.instagram.com/tropenmuseum/"> <img src="images/iconfinder_Instagram_glyph_svg_5335781.svg" alt="Instagram"></a>
                     </li>
+
                     <li class="youtube-icon">
-                        <a href="https://www.youtube.com/user/Tropenmuseum"> <img src="images\iconfinder_youtube-social-media_765195.svg" alt="YouTube"></a>
+                        <!--Bron img: https://www.iconfinder.com/icons/765195/media_youtube_social_icon -->
+                        <a href="https://www.youtube.com/user/Tropenmuseum"> <img src="images/iconfinder_youtube-social-media_765195.svg" alt="YouTube"></a>
                     </li>
                 </ul>
             </article>
         </section>
+        <!--End Footer deel 1-->
 
+        <!--Start Footer deel 2--->
         <section>
             <article>
                 <a href="https://afrikamuseum.nl/">
-                    <img class="domain-logo" title="Logo" alt="Logo" src="https://www.tropenmuseum.nl/themes/custom/afrikamuseum_subtheme/logo-grey.svg">
+                    <!--Bron img: https://www.tropenmuseum.nl/nl -->
+                    <img class="domain-logo" title="Logo" alt="Het Afrika Museum Logo" src="https://www.tropenmuseum.nl/themes/custom/afrikamuseum_subtheme/logo-grey.svg">
                 </a>
                 <p>Het Afrika Museum is een museum over mensen, gevestigd in de bosrijke omgeving van Berg en Dal.</p>
             </article>
 
             <article>
                 <a href="https://volkenkunde.nl/">
-                    <img class="domain-logo" title="Logo" alt="Logo" src="https://www.tropenmuseum.nl/themes/custom/museumvolkenkunde_subtheme/logo-grey.svg">
+                    <!--Bron img: https://www.tropenmuseum.nl/nl -->
+                    <img class="domain-logo" title="Logo" alt="Museum Volkenkunde Logo" src="https://www.tropenmuseum.nl/themes/custom/museumvolkenkunde_subtheme/logo-grey.svg">
                 </a>
                 <p>Museum Volkenkunde is eenmuseum over mensen, gevestigd in een monumentaal gebouw aan de Singel.</p>
             </article>
 
             <article>
                 <a href="https://wereldmuseum.nl/">
-                    <img class="domain-logo" title="Logo" alt="Logo" src="https://www.tropenmuseum.nl/themes/custom/wereldmuseum_subtheme/logo-grey.svg">
+                    <!--Bron img: https://www.tropenmuseum.nl/nl -->
+                    <img class="domain-logo" title="Logo" alt="Het Wereldmuseum Logo" src="https://www.tropenmuseum.nl/themes/custom/wereldmuseum_subtheme/logo-grey.svg">
                 </a>
                 <p>Het Wereldmuseum in Rotterdam is een museum over culturen in het heden en het verleden.</p>
             </article>
 
             <article>
                 <a href="https://materialculture.nl/">
-                    <img class="domain-logo" title="Logo" alt="Logo" src="https://www.tropenmuseum.nl/themes/custom/rcmc_subtheme/logo-grey.svg">
+                    <!--Bron img: https://www.tropenmuseum.nl/nl -->
+                    <img class="domain-logo" title="Logo" alt="material culture Logo" src="https://www.tropenmuseum.nl/themes/custom/rcmc_subtheme/logo-grey.svg">
                 </a>
                 <p>We stimuleren interdisciplinair onderzoek, gericht op onze internationaal bekende collecties.</p>
             </article>
         </section>
+        <!--End Footer deel 2--->
 
         <span>Copyright © 2020 Tropenmuseum in Amsterdam</span>
     </footer>
-    <script type="text/javascript" src="scripts\script.js">
+
+    <!--End Footer-->
+
+    <script src="scripts/script.js">
     </script>
 </body>
 

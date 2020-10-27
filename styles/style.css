@@ -14,6 +14,9 @@ body {
     text-align: left;
 }
 
+
+/* Navigation -------------------------------------------------*/
+
 header {
     display: grid;
     justify-items: center;
@@ -161,13 +164,6 @@ nav ul li {
     max-width: 40em;
 }
 
-
-/*
-.fullscreen-menu>.centering>article:first-of-type {
-    display: none;
-}
-*/
-
 .zoek {
     display: block;
     height: 2rem;
@@ -220,6 +216,14 @@ nav ul li {
     color: #AC373C;
 }
 
+.fullscreen-menu>section {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 1em;
+}
+
+
+/* Form style */
+
 label {
     color: #333333;
     margin-bottom: 10px;
@@ -250,11 +254,6 @@ button:hover {
     background: #AC373C;
 }
 
-.fullscreen-menu>section {
-    border-bottom: 1px solid #ddd;
-    padding-bottom: 1em;
-}
-
 
 /* Socials - menu----------------------------------------------*/
 
@@ -267,7 +266,7 @@ button:hover {
 }
 
 
-/* animation */
+/* animation menu */
 
 .show {
     top: 0;
@@ -313,7 +312,7 @@ main>.cards>a:nth-child(1) {
 }
 
 
-/* genderfull -------------------------------------------------*/
+/* Genderfull world -------------------------------------------------*/
 
 main>.cards>a:nth-child(2) {
     grid-column: 3/4;
@@ -321,7 +320,7 @@ main>.cards>a:nth-child(2) {
 }
 
 
-/* sabi -------------------------------------------------*/
+/* Sabi Suriname -------------------------------------------------*/
 
 main>.cards>a:nth-child(3) {
     grid-column: 3/4;
@@ -329,7 +328,7 @@ main>.cards>a:nth-child(3) {
 }
 
 
-/* rascism -------------------------------------------------*/
+/* Rasicme -------------------------------------------------*/
 
 main>.cards>a:nth-child(4) {
     grid-column: 2/4;
@@ -337,7 +336,7 @@ main>.cards>a:nth-child(4) {
 }
 
 
-/* slavernijverleden -------------------------------------------------*/
+/* Slavernijverleden -------------------------------------------------*/
 
 main>.cards>a:nth-child(5) {
     grid-column: 1/2;
@@ -345,31 +344,7 @@ main>.cards>a:nth-child(5) {
 }
 
 
-/* Responsive -------------------------------------------------*/
-
-@media screen and (max-width: 45rem) {
-    main>.cards>a:nth-child(4)>p,
-    main>.cards>a:nth-child(6)>p {
-        margin-bottom: 95px;
-    }
-}
-
-@media screen and (min-width: 45rem) {
-    main>.cards>a:nth-child(4)>p,
-    main>.cards>a:nth-child(6)>p {
-        margin-bottom: 95px;
-    }
-}
-
-@media screen and (max-width: 70rem) {
-    main>.cards>a:nth-child(2)>p,
-    main>.cards>a:nth-child(5)>p {
-        margin-bottom: 70px;
-    }
-}
-
-
-/* online musem -------------------------------------------------*/
+/* Online museum -------------------------------------------------*/
 
 main>.cards>a:nth-child(6) {
     grid-column: 1/2;
@@ -401,7 +376,7 @@ main>.cards>a:nth-child(9) {
 }
 
 
-/* Collectie -------------------------------------------------*/
+/* Onze Collectie -------------------------------------------------*/
 
 main>.cards>a:nth-child(10) {
     grid-column: 1/2;
@@ -409,7 +384,7 @@ main>.cards>a:nth-child(10) {
 }
 
 
-/* Junior -------------------------------------------------*/
+/* Tropenmuseum Junior -------------------------------------------------*/
 
 main>.cards>a:nth-child(11) {
     grid-column: 2/3;
@@ -425,7 +400,31 @@ main>.cards>a:nth-child(12) {
 }
 
 
-/* hover -------------------------------------------------*/
+/* Responsive styles cards -------------------------------------------------*/
+
+@media screen and (max-width: 45rem) {
+    main>.cards>a:nth-child(4)>p,
+    main>.cards>a:nth-child(6)>p {
+        margin-bottom: 95px;
+    }
+}
+
+@media screen and (min-width: 45rem) {
+    main>.cards>a:nth-child(4)>p,
+    main>.cards>a:nth-child(6)>p {
+        margin-bottom: 95px;
+    }
+}
+
+@media screen and (max-width: 70rem) {
+    main>.cards>a:nth-child(2)>p,
+    main>.cards>a:nth-child(5)>p {
+        margin-bottom: 70px;
+    }
+}
+
+
+/* Hover Grid cards -------------------------------------------------*/
 
 .leading>video>a:hover {
     filter: brightness(75%);
@@ -580,7 +579,7 @@ h3 {
 }
 
 
-/* nieuwsbrief----------------------------------------------*/
+/* -Nieuwsbrief- */
 
 .fullscreen-menu>.centering>article:nth-child(3)>form {
     display: flex;
@@ -623,6 +622,9 @@ imput [type=submit]:hover {
     background: #AC373C;
 }
 
+
+/* -Footer deel 1- */
+
 footer>section>article {
     margin-top: 2em;
     margin-bottom: 1em;
@@ -654,7 +656,7 @@ footer>section>article>ul>li>a {
 }
 
 
-/* Socials part ----------------------------------------------*/
+/* Socials ----------------------------------------------*/
 
 .socials {
     display: flex;
@@ -676,7 +678,7 @@ footer>section>article>ul>li>a {
 }
 
 
-/* afrika museum part ----------------------------------------------*/
+/* -Footer deel 2- */
 
 .domain-logo {
     height: 3em;
@@ -696,7 +698,7 @@ footer>section:last-of-type>article>p {
 }
 
 
-/* Over tropenmuseum page 2 ----------------------------------------------*/
+/* ---------------Over tropenmuseum page 2---------------*/
 
 
 /* Breadcrumb-----------------------------------------*/
@@ -731,7 +733,7 @@ footer>section:last-of-type>article>p {
 }
 
 
-/* leading---------------------------------------------*/
+/* leading img page 2 ---------------------------------------------*/
 
 .page2>.leading {
     height: 501px;
@@ -757,7 +759,7 @@ footer>section:last-of-type>article>p {
 }
 
 
-/* main----------------------------------------------*/
+/* main page 2 ----------------------------------------------*/
 
 .page2>main {
     display: flex;
@@ -773,17 +775,7 @@ footer>section:last-of-type>article>p {
 }
 
 
-/*.page2 > main > section > h2{
-    background: white;
-    color: #ea4e55;
-    padding: 0 1.5rem;
-    display: inline;
-    margin: 0;
-    line-height: 6.2rem;
-}*/
-
-
-/* Text box 1 red bg----------------------------------*/
+/* main text 1 page 2-----------------------------------*/
 
 .page2>main>section>section:nth-child(1) {
     background: #ea4e55;
@@ -809,7 +801,7 @@ footer>section:last-of-type>article>p {
 }
 
 
-/* Second text box------------------------------------*/
+/* main text 2 page 2------------------------------------*/
 
 .page2>main>section>section>section>p {
     color: #666;
@@ -834,7 +826,7 @@ footer>section:last-of-type>article>p {
 }
 
 
-/* Sticky Aside-------------------------------------*/
+/* Sticky Aside paage 2 -------------------------------------*/
 
 .page2>main>aside {
     position: sticky;
@@ -869,7 +861,7 @@ footer>section:last-of-type>article>p {
 }
 
 
-/* Cards---------------------------------------*/
+/* Grid Cards Page 2---------------------------------------*/
 
 .page2>.cards>a {
     text-decoration: none;
@@ -917,16 +909,11 @@ footer>section:last-of-type>article>p {
 }
 
 
-/* Ipad media query */
+/*---------- Ipad media query---------- */
 
 @media screen and (max-width: 80rem) {
     .leading {
         height: 386px;
-    }
-    .page2>.cards {
-        grid-template-columns: repeat(2, 1fr);
-        width: 90%;
-        padding: 0;
     }
     nav img {
         width: 5em;
@@ -960,10 +947,15 @@ footer>section:last-of-type>article>p {
     footer>section:first-of-type>article:first-of-type {
         display: none;
     }
+    .page2>.cards {
+        grid-template-columns: repeat(2, 1fr);
+        width: 90%;
+        padding: 0;
+    }
 }
 
 
-/* Mobile media query  */
+/*---------- Mobile media query----------*/
 
 @media screen and (max-width: 50rem) {
     #navigation {
@@ -979,6 +971,7 @@ footer>section:last-of-type>article>p {
         width: 5em;
         height: 1.6em;
     }
+    /* -Fullscreen menu- */
     .fullscreen-menu>section {
         flex-direction: column;
         align-items: flex-start;
@@ -1074,6 +1067,7 @@ footer>section:last-of-type>article>p {
         text-transform: uppercase;
         font-weight: 700;
     }
+    /* -Grid cards page 2- */
     .page2>.cards {
         padding: 0;
         display: flex;

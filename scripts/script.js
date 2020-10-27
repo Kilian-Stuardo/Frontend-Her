@@ -1,25 +1,31 @@
 // variables
 // je pakt de header
-let header = document.querySelector('header');
+const header = document.querySelector('header');
 // sla de positie op 
-var savedPosition = 0;
+let savedPosition = 0;
 
-let fullScreen = document.querySelector(".fullscreen-menu");
-let hamburger = document.querySelector('#fullimage');
-let hamburgerCross = document.querySelector('.cross');
+const fullScreen = document.querySelector(".fullscreen-menu");
+const hamburger = document.querySelector('#fullimage');
+const hamburgerCross = document.querySelector('.cross');
+
+// Hamburger menu click
+// Inspiratie Bron: https://stackoverflow.com/questions/35579569/hide-show-menu-onclick-javascript
 
 console.log(hamburger);
 
 hamburger.addEventListener('click', function(event) {
     fullScreen.style.display = 'block';
 
-}, true)
+}, false)
 
 hamburgerCross.addEventListener('click', function(event) {
     console.log(hamburgerCross)
     fullScreen.style.display = 'none';
-}, true)
+}, false)
 
+
+// Header scroll hide / show
+// Inspiratie Bron: https://stackoverflow.com/questions/35579569/hide-show-menu-onclick-javascript
 
 // je wilt op interval weten wat de huidige positie is
 window.setInterval(() => {
@@ -31,7 +37,7 @@ window.setInterval(() => {
 }, 3500)
 
 // Je luistert naar scroll
-window.addEventListener('scroll', (event) => {
+window.addEventListener('scroll', () => {
     /* console.log de berekening wat het verschil is OMHOOG
     van de scroll positie om dan het menu weer te tonen. Je voegt 
     hier de classList toe. */
