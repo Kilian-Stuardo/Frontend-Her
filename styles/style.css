@@ -775,6 +775,10 @@ footer>section:last-of-type>article>p {
     display: block;
 }
 
+video {
+    width: 100%;
+}
+
 
 /* main text 1 page 2-----------------------------------*/
 
