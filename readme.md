@@ -17,7 +17,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 9. https://www.internetingishard.com/html-and-css/flexbox/#flex-container-order
 10. https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries
 11. https://favicon.io/favicon-converter/
-12. 
+12. https://stackoverflow.com/questions/35579569/hide-show-menu-onclick-javascript
+13. https://medium.com/@mariusc23/hide-header-on-scroll-down-show-on-scroll-up-67bbaae9a78c
 
 
 

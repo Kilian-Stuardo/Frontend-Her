@@ -224,7 +224,7 @@ nav ul li {
 
 /* Form style */
 
-label {
+form>p {
     color: #333333;
     margin-bottom: 10px;
     font-family: 'Montserrat';
@@ -583,6 +583,7 @@ h3 {
 
 .fullscreen-menu>.centering>article:nth-child(3)>form {
     display: flex;
+    flex-direction: column;
 }
 
 input[type=text] {
