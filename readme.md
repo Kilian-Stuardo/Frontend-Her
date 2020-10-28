@@ -27,6 +27,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Eindgesprek (week 7/8)
 
 -dit ging goed & dit was lastig-
+
 Ookal ik niet al te goed met html en css ben, vind ik dat ik nog best wat aardigs neergezet heb. Ik weet dat er nog wel wat foutjes zijn en dingen die beter kunnen en wat detail, wat ik waarschijnlijk over het hoofd gezien heb maar ik ben erg teverden met wat ik neergezet heb. Ik gaf in  het begin al aan dat ik blauwe piesten ben en niet al te goed ben maar ik merk zelf wel dat ik het al steed meer begrijp, zeker sinds de minor ben ik er al een stuk beter in geworden. Ik heb nog wel wat stuggels gehad met de responsiveness van mijn site, ik had de fout gemaakt om niet mobile first te beginnen omdat ik erg gefocused was op het grid omdat ik me daar zorgen om maakten aangezien ik daar niet al te veel ervaring mee had. 
 
 **Screenshot(s):**
@@ -48,6 +49,7 @@ Ookal ik niet al te goed met html en css ben, vind ik dat ik nog best wat aardig
 
 ### Stand van zaken
 -dit ging goed & dit was lastig-
+
  heb er niet zo veel tijd voor gehad door project web maar ben nog steeds bezig met de buggen en wat styling fixes en document opschoonen.
  de arrow knop bij aanmelden lukte me niet en heb het opgegeeven.
  ik ben nu nog erg aan het klooien met mijn menu stylken dat werkt nog niet helemaal goed en elke keer als ik een ding fix maak ik iets anders stuk lijkt wel
@@ -74,6 +76,7 @@ Ookal ik niet al te goed met html en css ben, vind ik dat ik nog best wat aardig
 
 
 ### Verslag van meeting
+
 het gesprek ging goed dit keer voor het eerst met jelmer.
 ik kreeg complimenten op wat ik al had en er werd gevraagd wat ik nog moest doen. ik wist al dat ik nog wat details moest toevoegen en nog wat bugs fixen
 
@@ -110,6 +113,7 @@ Ik ben al een stuk opgeschooten met de tweede pagina aleen nog wat kliene stylin
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
+
 goed op weg complimenmten van de leeraar
 ben nu nog bezig met de buggen en wat style fixes 
 wel nog wat stugles met dingen maar im doing it to the best of my abilitys
