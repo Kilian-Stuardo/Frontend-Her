@@ -19,6 +19,15 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 11. https://favicon.io/favicon-converter/
 12. https://stackoverflow.com/questions/35579569/hide-show-menu-onclick-javascript
 13. https://medium.com/@mariusc23/hide-header-on-scroll-down-show-on-scroll-up-67bbaae9a78c
+14. https://css-tricks.com/almanac/selectors/n/nth-child/
+15. https://www.tropenmuseum.nl/nl
+16. https://www.iconfinder.com/icons/765195/media_youtube_social_icon
+17. https://www.iconfinder.com/icons/4373701/instagram_logo_logos_icon
+18. https://www.iconfinder.com/icons/5282542/linkedin_network_social_network_linkedin_logo_icon
+19. https://www.iconfinder.com/icons/765208/media_twitter_social_icon
+20. https://www.iconfinder.com/icons/1269914/social_media_facebook_social_icon
+21. https://www.youtube.com/watch?v=kyGBnS43wdA&feature=emb_title
+22. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video
 
 
 
@@ -28,7 +37,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -dit ging goed & dit was lastig-
 
-Ookal ik niet al te goed met html en css ben, vind ik dat ik nog best wat aardigs neergezet heb. Ik weet dat er nog wel wat foutjes zijn en dingen die beter kunnen en wat detail, wat ik waarschijnlijk over het hoofd gezien heb maar ik ben erg teverden met wat ik neergezet heb. Ik gaf in  het begin al aan dat ik blauwe piesten ben en niet al te goed ben maar ik merk zelf wel dat ik het al steed meer begrijp, zeker sinds de minor ben ik er al een stuk beter in geworden. Ik heb nog wel wat stuggels gehad met de responsiveness van mijn site, ik had de fout gemaakt om niet mobile first te beginnen omdat ik erg gefocused was op het grid omdat ik me daar zorgen om maakten aangezien ik daar niet al te veel ervaring mee had. 
+Ookal ik niet al te goed met html en css ben, vind ik dat ik nog best wat aardigs neergezet heb. Ik weet dat er nog wel wat foutjes zijn en dingen die beter kunnen en wat detail, wat ik waarschijnlijk over het hoofd gezien heb maar ik ben erg teverden met wat ik neergezet heb. Ik gaf in  het begin al aan dat ik blauwe piesten ben en niet al te goed ben maar ik merk zelf wel dat ik het al steed meer begrijp, zeker sinds de minor ben ik er al een stuk beter in geworden. Ik heb nog wel wat stuggels gehad met de responsiveness van mijn site, ik had de fout gemaakt om niet mobile first te beginnen omdat ik erg gefocused was op het grid omdat ik me daar zorgen om maakten aangezien ik daar niet al te veel ervaring mee had. maar uitijndelijk is het toch nog best goed gelukt en ben iuk er erg trots op.
 
 **Screenshot(s):**
 <details open>
@@ -50,9 +59,8 @@ Ookal ik niet al te goed met html en css ben, vind ik dat ik nog best wat aardig
 ### Stand van zaken
 -dit ging goed & dit was lastig-
 
- heb er niet zo veel tijd voor gehad door project web maar ben nog steeds bezig met de buggen en wat styling fixes en document opschoonen.
- de arrow knop bij aanmelden lukte me niet en heb het opgegeeven.
- ik ben nu nog erg aan het klooien met mijn menu stylken dat werkt nog niet helemaal goed en elke keer als ik een ding fix maak ik iets anders stuk lijkt wel
+Ik Heb er niet zo veel tijd voor gehad door project web, maar ben nog steeds bezig met de-buggen en wat styling Fixes en document opschonen.
+Ik ben nu nog erg aan het klooien met mijn menu stylen dat werkt nog niet helemaal goed en elke keer als ik een ding fix maak ik iets anders stuk lijkt wel. dus ben nog bezig met wat bumps in the road oplossen maar het komt wel goed.
 
 **Screenshot(s):**
 <details open>
@@ -77,8 +85,8 @@ Ookal ik niet al te goed met html en css ben, vind ik dat ik nog best wat aardig
 
 ### Verslag van meeting
 
-het gesprek ging goed dit keer voor het eerst met jelmer.
-ik kreeg complimenten op wat ik al had en er werd gevraagd wat ik nog moest doen. ik wist al dat ik nog wat details moest toevoegen en nog wat bugs fixen
+het gesprek ging goed dit keer voor het eerst met Jelmer.
+ik kreeg complimenten op wat ik al had en er werd gevraagd wat ik nog moest doen. Ik moet nog wat details toevoegen en nog wat bugs fixen zoals me grid die niet responsive was op de tweede pagina. en wat bugs met het menu.
 
 
 
@@ -87,7 +95,7 @@ ik kreeg complimenten op wat ik al had en er werd gevraagd wat ik nog moest doen
 ### Stand van zaken
 -dit ging goed & dit was lastig-
 
-Ik ben al een stuk opgeschooten met de tweede pagina aleen nog wat kliene styling elementen en dan nog wat details van styling op beide paginas heb aleen niet zo heel veel tijd gehad ivm andere vakken maar ben er wel bijna voor mijn gevoel
+Ik ben al een stuk opgeschoten met de tweede pagina allen nog wat Kleine styling elementen, dan nog wat details van styling op beide pagina's ik heb allen niet zo heel veel tijd gehad in verband met andere vakken, maar ben er wel bijna voor mijn gevoel.
 
 **Screenshot(s):**
 <details open>
@@ -114,9 +122,10 @@ Ik ben al een stuk opgeschooten met de tweede pagina aleen nog wat kliene stylin
 
 -na afloop snel uitkomsten vastleggen-
 
-goed op weg complimenmten van de leeraar
-ben nu nog bezig met de buggen en wat style fixes 
-wel nog wat stugles met dingen maar im doing it to the best of my abilitys
+Goed op weg complimenten van de Leeraar
+ben nu nog bezig met de-buggen en wat style Fixes 
+wel nog wat strugles met dingen maar im doing it to the best of My ability's
+ik moet nu ff wat meer gas er op.
 
 
 
@@ -126,7 +135,7 @@ wel nog wat stugles met dingen maar im doing it to the best of my abilitys
 
 -dit ging goed & dit was lastig-
 
-ik ben al een stuk opgeschooten met de homepage. De navigatie voor mobile maaken ging nog niet zo goed en liep best vaak tgene wat probleemen op met de homepage waardoor ik ook nog niet aan de tweede pagina begonnen ben. ook had ik soms wat moeite met starten, ook was ik vaak vergeten hoe ik dingen moest doen waardoor het ook meer tijd gekost heeft. Wat ook erg vervalend was is dat de site al 3 keer geupdate is van content en stijl waardoor ik dingen dubble moest doen om het weer te veranderen.
+Ik ben al een stuk opgeschoten met de homepage. De navigatie voor mobile maken ging nog niet zo goed en liep best vaak tegen wat problemen op met de homepage waardoor ik ook nog niet aan de tweede pagina begonnen ben. Ook had ik soms wat moeite met starten, ook was ik vaak vergeten hoe ik dingen moest doen waardoor het ook meer tijd gekost heeft. Wat ook erg vervalend was is dat de site al 3 keer geüpdatet is van content en stijl waardoor ik dingen Dubbel moest doen om het weer te veranderen.
 
 **Screenshot(s):**
 <details open>
